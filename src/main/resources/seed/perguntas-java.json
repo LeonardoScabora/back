@@ -1,0 +1,542 @@
+[
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual conjunto contém apenas tipos primitivos do Java?",
+    "alternativaA": "int, boolean, char, double",
+    "alternativaB": "int, String, Object, void",
+    "alternativaC": "String, Integer, Boolean, Double",
+    "alternativaD": "Integer, Character, Float, Array",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual declaração armazena um número inteiro de 32 bits, sem parte fracionária?",
+    "alternativaA": "double valor = 10;",
+    "alternativaB": "int valor = 10;",
+    "alternativaC": "float valor = 10;",
+    "alternativaD": "char valor = 10;",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual valor pode ser atribuído a uma variável do tipo primitivo boolean?",
+    "alternativaA": "0",
+    "alternativaB": "\"true\"",
+    "alternativaC": "true",
+    "alternativaD": "null",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual declaração está correta para guardar um único caractere?",
+    "alternativaA": "String letra = 'A';",
+    "alternativaB": "Character letra = \"A\";",
+    "alternativaC": "char letra = \"A\";",
+    "alternativaD": "char letra = 'A';",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual regra vale para identificadores de variáveis em Java?",
+    "alternativaA": "Devem começar com letra, cifrão ou sublinhado",
+    "alternativaB": "Podem começar com dígito, desde que o restante seja letra",
+    "alternativaC": "Podem conter espaços se o nome estiver entre aspas",
+    "alternativaD": "Precisam ser escritos somente em letras maiúsculas",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual efeito a palavra-chave final provoca em uma variável local já inicializada?",
+    "alternativaA": "Transforma a variável em atributo de classe automaticamente",
+    "alternativaB": "Impede que um novo valor seja atribuído a essa variável",
+    "alternativaC": "Permite alterar o tipo da variável em tempo de execução",
+    "alternativaD": "Torna a variável visível para todas as classes do pacote",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "No trecho if (idade >= 18) { ... } else { ... }, quando o bloco else é executado?",
+    "alternativaA": "Sempre, logo após o bloco if",
+    "alternativaB": "Somente se idade for exatamente 18",
+    "alternativaC": "Quando a condição do if for avaliada como falsa",
+    "alternativaD": "Apenas se idade for um número negativo",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Quantas vezes o corpo de for (int i = 0; i < 3; i++) é executado?",
+    "alternativaA": "0",
+    "alternativaB": "2",
+    "alternativaC": "4",
+    "alternativaD": "3",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual diferença principal distingue while de do-while?",
+    "alternativaA": "do-while executa o corpo pelo menos uma vez, mesmo se a condição for falsa",
+    "alternativaB": "while não pode usar expressão boolean",
+    "alternativaC": "while executa o corpo pelo menos duas vezes",
+    "alternativaD": "do-while só funciona com variáveis int",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual palavra-chave impede que a execução de um switch continue nos cases seguintes?",
+    "alternativaA": "exit",
+    "alternativaB": "break",
+    "alternativaC": "stop",
+    "alternativaD": "return, de forma obrigatória em todo case",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Em int[] v = new int[5];, quais índices são válidos para acessar elementos?",
+    "alternativaA": "1 até 5",
+    "alternativaB": "0 até 5",
+    "alternativaC": "0 até 4",
+    "alternativaD": "0 até 6",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Como se obtém a quantidade de posições de um array chamado notas?",
+    "alternativaA": "notas.size()",
+    "alternativaB": "notas.length()",
+    "alternativaC": "notas.count()",
+    "alternativaD": "notas.length",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual é o valor da expressão 17 % 5?",
+    "alternativaA": "2",
+    "alternativaB": "3.4",
+    "alternativaC": "5",
+    "alternativaD": "12",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Para duas variáveis int a e b, a expressão a == b compara:",
+    "alternativaA": "Os endereços de memória de objetos wrapper",
+    "alternativaB": "Os valores numéricos armazenados nas variáveis",
+    "alternativaC": "Os nomes escolhidos para a e b",
+    "alternativaD": "Os tipos declarados, ignorando os valores",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual instrução escreve uma linha de texto no console padrão?",
+    "alternativaA": "System.console.write(\"texto\");",
+    "alternativaB": "Console.printLine(\"texto\");",
+    "alternativaC": "System.out.println(\"texto\");",
+    "alternativaD": "System.print(\"texto\");",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual assinatura é o ponto de entrada padrão de uma aplicação Java?",
+    "alternativaA": "public void start(String args)",
+    "alternativaB": "static void run(String args)",
+    "alternativaC": "public int main()",
+    "alternativaD": "public static void main(String[] args)",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual valor a expressão \"A\" + 1 + 2 produz?",
+    "alternativaA": "A12",
+    "alternativaB": "3A",
+    "alternativaC": "A3",
+    "alternativaD": "12A",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual conversão de tipo exige um cast explícito?",
+    "alternativaA": "de int para long",
+    "alternativaB": "de double para int",
+    "alternativaC": "de int para double",
+    "alternativaD": "de byte para int",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Dentro de um for, a instrução continue provoca qual efeito?",
+    "alternativaA": "Encerra o método imediatamente",
+    "alternativaB": "Encerra a aplicação",
+    "alternativaC": "Interrompe o restante da iteração atual e segue para a próxima",
+    "alternativaD": "Reinicia a máquina virtual",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual é o valor padrão de um atributo int de instância que não foi inicializado no código?",
+    "alternativaA": "Indefinido: o código nunca compila nessa situação",
+    "alternativaB": "null",
+    "alternativaC": "1",
+    "alternativaD": "0",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual afirmativa descreve corretamente a relação entre classe e objeto?",
+    "alternativaA": "A classe é o modelo; o objeto é uma instância criada a partir desse modelo",
+    "alternativaB": "A classe é uma instância; o objeto é o modelo usado pelo compilador",
+    "alternativaC": "Classe e objeto são sinônimos em tempo de execução",
+    "alternativaD": "Objetos existem apenas em tempo de compilação",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual prática aplica encapsulamento de forma típica em uma classe?",
+    "alternativaA": "Deixar todos os atributos public para simplificar o acesso",
+    "alternativaB": "Manter atributos private e expor leitura/escrita controlada por métodos",
+    "alternativaC": "Usar apenas métodos static, sem estado de instância",
+    "alternativaD": "Evitar construtores e inicializar campos em classes vizinhas",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "A palavra-chave extends em uma declaração de classe indica que ela:",
+    "alternativaA": "Implementa uma interface e não pode ter atributos",
+    "alternativaB": "Se torna abstrata automaticamente",
+    "alternativaC": "Herda membros da superclasse informada",
+    "alternativaD": "Não pode ser instanciada em nenhuma hipótese",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Quando uma classe usa implements em uma interface sem métodos default, ela deve:",
+    "alternativaA": "Herdar automaticamente o código concreto da interface",
+    "alternativaB": "Ser marcada como final obrigatoriamente",
+    "alternativaC": "Declarar todos os seus métodos como static",
+    "alternativaD": "Fornecer implementação para os métodos abstratos declarados",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Com Animal a = new Cachorro();, se Cachorro sobrescreve falar(), a chamada a.falar() executa:",
+    "alternativaA": "O método de Cachorro, por vinculação dinâmica (polimorfismo)",
+    "alternativaB": "O método de Animal, porque o tipo da variável é Animal",
+    "alternativaC": "Os dois métodos, em sequência",
+    "alternativaD": "Nenhum método, pois a atribuição é inválida",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Sobrescrita (override) ocorre quando:",
+    "alternativaA": "Dois métodos na mesma classe têm o mesmo nome e parâmetros diferentes",
+    "alternativaB": "Uma subclasse redefine um método da superclasse com a mesma assinatura",
+    "alternativaC": "Um método static substitui um método de instância da superclasse",
+    "alternativaD": "Um construtor chama outro construtor da mesma classe",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Sobrecarga (overload) fica caracterizada por:",
+    "alternativaA": "Métodos com o mesmo nome e os mesmos parâmetros em classes distintas",
+    "alternativaB": "Trocar apenas o tipo de retorno, mantendo nome e parâmetros iguais",
+    "alternativaC": "Métodos com o mesmo nome e listas de parâmetros diferentes na mesma classe",
+    "alternativaD": "Usar @Override em métodos static para esconder o da superclasse",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual uso de super está correto em uma subclasse?",
+    "alternativaA": "super converte o objeto para uma interface funcional",
+    "alternativaB": "super sempre cria uma nova instância da subclasse",
+    "alternativaC": "super substitui this dentro de métodos static",
+    "alternativaD": "super.metodo() invoca a versão do método definida na superclasse",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual característica vale para um construtor?",
+    "alternativaA": "Tem o mesmo nome da classe e não declara tipo de retorno",
+    "alternativaB": "Deve declarar tipo de retorno void",
+    "alternativaC": "Pode ser chamado como método de instância depois que o objeto já existe, sem new",
+    "alternativaD": "Precisa ser static para inicializar atributos de instância",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual diferença entre array e ArrayList está correta?",
+    "alternativaA": "ArrayList tem tamanho fixo; array cresce automaticamente",
+    "alternativaB": "Array tem tamanho fixo; ArrayList pode crescer dinamicamente",
+    "alternativaC": "Array não armazena primitivos; ArrayList armazena int sem boxing",
+    "alternativaD": "ArrayList não permite acesso por índice numérico",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Em um HashMap<String, Integer>, put(\"a\", 1) seguido de put(\"a\", 2) provoca:",
+    "alternativaA": "Duas entradas distintas com a chave \"a\"",
+    "alternativaB": "Exceção imediata por chave duplicada",
+    "alternativaC": "Substituição do valor associado à chave \"a\" por 2",
+    "alternativaD": "Ignorar a segunda inserção e manter o valor 1",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Quando uma exceção do tipo declarado no catch é lançada dentro do try, o fluxo segue para:",
+    "alternativaA": "O finally, ignorando o catch correspondente",
+    "alternativaB": "O encerramento imediato do processo, sem chance de tratamento",
+    "alternativaC": "Somente o método main da aplicação",
+    "alternativaD": "O catch correspondente, se existir",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual afirmativa sobre IOException e NullPointerException está correta?",
+    "alternativaA": "IOException é checked; NullPointerException é unchecked",
+    "alternativaB": "Ambas são checked e exigem throws ou try-catch",
+    "alternativaC": "NullPointerException é checked; IOException é unchecked",
+    "alternativaD": "Nenhuma das duas pode ser capturada em um bloco catch",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "O bloco finally associado a um try é executado:",
+    "alternativaA": "Somente se nenhuma exceção ocorrer",
+    "alternativaB": "Ao sair do try/catch, ocorra ou não exceção (exceto abortos da JVM)",
+    "alternativaC": "Somente se uma exceção for capturada no catch",
+    "alternativaD": "Apenas quando o catch estiver vazio",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Métodos static podem:",
+    "alternativaA": "Acessar diretamente atributos de instância sem um objeto",
+    "alternativaB": "Usar this para obter o objeto receptor",
+    "alternativaC": "Ser invocados pelo nome da classe, sem instância",
+    "alternativaD": "Ser sobrescritos com polimorfismo de instância como métodos não static",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual declaração define um conjunto fixo de constantes nomeadas tipadas?",
+    "alternativaA": "interface Status { ATIVO, INATIVO }",
+    "alternativaB": "static Status = { ATIVO, INATIVO }",
+    "alternativaC": "class Status extends Enum { }",
+    "alternativaD": "enum Status { ATIVO, INATIVO }",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Para comparar o conteúdo de duas referências String s1 e s2, a forma idiomática é:",
+    "alternativaA": "s1.equals(s2)",
+    "alternativaB": "s1 == s2",
+    "alternativaC": "s1.compare(s2) == 0",
+    "alternativaD": "System.identityHashCode(s1) == System.identityHashCode(s2)",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Membros marcados como private são visíveis:",
+    "alternativaA": "Em qualquer classe do mesmo pacote",
+    "alternativaB": "Somente na própria classe que os declara",
+    "alternativaC": "Em subclasses, mesmo de outros pacotes",
+    "alternativaD": "Em qualquer classe do projeto",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Uma classe abstrata:",
+    "alternativaA": "Pode ser instanciada diretamente com new",
+    "alternativaB": "Não pode ter construtor",
+    "alternativaC": "Pode declarar métodos sem corpo e também métodos concretos",
+    "alternativaD": "Substitui enum em todos os cenários de constantes",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Por que StringBuilder costuma ser preferível a concatenar muitas Strings em um laço?",
+    "alternativaA": "String é mutável e StringBuilder não permite alteração",
+    "alternativaB": "O compilador proíbe o operador + entre literais String",
+    "alternativaC": "StringBuilder não pode ter o conteúdo modificado depois de criado",
+    "alternativaD": "String é imutável; cada concatenação pode gerar novos objetos intermediários",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Qual efeito o modificador synchronized em um método de instância produz?",
+    "alternativaA": "Adquire o monitor do objeto this antes de executar o corpo",
+    "alternativaB": "Executa o método em uma thread daemon automaticamente",
+    "alternativaC": "Impede qualquer coleta de lixo enquanto o método corre",
+    "alternativaD": "Transforma o método em assíncrono via CompletableFuture",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "A palavra-chave volatile garante principalmente:",
+    "alternativaA": "Atomicidade de operações compostas como contador++",
+    "alternativaB": "Visibilidade das escritas dessa variável para outras threads",
+    "alternativaC": "Exclusão mútua equivalente a um bloco synchronized",
+    "alternativaD": "Que o campo nunca seja envolvido em reordenação com I/O",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Qual situação descreve um deadlock clássico entre threads?",
+    "alternativaA": "Uma thread espera I/O e depois retoma a execução",
+    "alternativaB": "O coletor de lixo pausa threads por um intervalo curto",
+    "alternativaC": "Duas ou mais threads esperam locks que as outras já possuem, sem progresso",
+    "alternativaD": "Uma thread chama yield() e cede a CPU temporariamente",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Qual vantagem típica de um ExecutorService em relação a instanciar Thread várias vezes?",
+    "alternativaA": "Elimina a necessidade de Runnable ou Callable",
+    "alternativaB": "Substitui a JVM por um interpretador de bytecode próprio",
+    "alternativaC": "Garante ausência de condição de corrida sem qualquer sincronização",
+    "alternativaD": "Reutiliza threads de um pool e gerencia o ciclo de vida das tarefas",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Em lista.stream().filter(x -> x > 0).map(x -> x * 2).toList(), a operação filter:",
+    "alternativaA": "É intermediária e preguiçosa: só processa elementos após uma operação terminal",
+    "alternativaB": "É terminal e encerra o pipeline imediatamente",
+    "alternativaC": "Altera a lista original no momento da chamada a filter",
+    "alternativaD": "Converte o Stream em array de forma automática",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Qual uso de Optional está alinhado à intenção da API?",
+    "alternativaA": "Usar Optional como campo persistido em toda entidade JPA",
+    "alternativaB": "Retornar Optional para indicar ausência de valor sem recorrer a null",
+    "alternativaC": "Substituir todos os parâmetros de métodos por Optional",
+    "alternativaD": "Chamar get() sem verificar presença, como padrão idiomático",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Após a compilação, os argumentos de tipo de um generic:",
+    "alternativaA": "Permanecem reificados e sempre inspecionáveis por reflexão de forma completa",
+    "alternativaB": "Geram uma classe distinta no bytecode para cada instanciação de tipo",
+    "alternativaC": "São apagados (type erasure); em tempo de execução prevalecem tipos brutos ou bounds",
+    "alternativaD": "Duplicam o bytecode do método para cada argumento de tipo usado no programa",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Em List<? extends Number> list, qual operação é segura do ponto de vista do compilador?",
+    "alternativaA": "list.add(10)",
+    "alternativaB": "list.add(3.14)",
+    "alternativaC": "list.add(Integer.valueOf(1))",
+    "alternativaD": "Number n = list.get(0);",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "No padrão Singleton, o objetivo principal é:",
+    "alternativaA": "Garantir uma única instância e um ponto global de acesso a ela",
+    "alternativaB": "Criar famílias de produtos relacionados sem especificar classes concretas",
+    "alternativaC": "Encapsular uma família de algoritmos intercambiáveis",
+    "alternativaD": "Notificar vários observadores quando o estado de um objeto muda",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "O padrão Strategy é adequado quando:",
+    "alternativaA": "É preciso garantir uma única instância compartilhada no sistema",
+    "alternativaB": "Algoritmos devem ser intercambiáveis sem alterar o código cliente",
+    "alternativaC": "Uma classe deve ter exatamente uma subclasse permitida",
+    "alternativaD": "Objetos novos devem nascer apenas por cópia de um protótipo",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Onde a JVM aloca, em geral, as instâncias criadas com new?",
+    "alternativaA": "Na stack da thread que executa o new",
+    "alternativaB": "Na metaspace, junto ao bytecode dos métodos",
+    "alternativaC": "No heap",
+    "alternativaD": "Somente em registradores da CPU, sem memória dinâmica",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Na coleta geracional típica da HotSpot, objetos recém-criados começam em qual área?",
+    "alternativaA": "Old Generation (Tenured)",
+    "alternativaB": "Code Cache do compilador JIT",
+    "alternativaC": "Metaspace",
+    "alternativaD": "Young Generation, em geral no Eden",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "A relação happens-before no Java Memory Model implica que:",
+    "alternativaA": "Efeitos de memória de uma ação tornam-se visíveis a outra quando essa relação existe",
+    "alternativaB": "Threads nunca podem executar em paralelo no mesmo núcleo",
+    "alternativaC": "O compilador fica proibido de otimizar qualquer trecho de código",
+    "alternativaD": "volatile deixa de ser necessário em qualquer programa concorrente",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "CompletableFuture.supplyAsync(supplier) tem como comportamento típico:",
+    "alternativaA": "Bloquear a thread chamadora até o supplier terminar, sempre de forma síncrona",
+    "alternativaB": "Agendar o supplier de forma assíncrona e devolver um future da conclusão",
+    "alternativaC": "Eliminar a necessidade de tratar exceções lançadas pelo supplier",
+    "alternativaD": "Executar apenas na thread de eventos de interfaces gráficas",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Comparado a um HashMap envolvido em synchronized, ConcurrentHashMap:",
+    "alternativaA": "Permite null como chave, ao contrário do HashMap comum",
+    "alternativaB": "É thread-safe apenas se nunca for compartilhado entre threads",
+    "alternativaC": "Oferece concorrência de leitura e escrita com granularidade mais fina",
+    "alternativaD": "Impede qualquer iteração enquanto houver escritas",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "O compilador JIT da JVM tem como papel típico:",
+    "alternativaA": "Gerenciar somente a alocação no Eden, sem transformar bytecode",
+    "alternativaB": "Converter arquivos .java em .class gravados em disco",
+    "alternativaC": "Substituir o classloader da aplicação em cada chamada de método",
+    "alternativaD": "Traduzir bytecode frequentemente executado para código nativo em tempo de execução",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "O mecanismo de classloader serve principalmente para:",
+    "alternativaA": "Carregar classes sob demanda, em geral com delegação ao classloader pai",
+    "alternativaB": "Compactar o heap durante um Full GC",
+    "alternativaC": "Compilar expressões lambda diretamente para JNI",
+    "alternativaD": "Tornar synchronized reentrante na JVM",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Qual capacidade ReentrantLock oferece além do synchronized típico?",
+    "alternativaA": "Impossibilidade de deadlock por construção da API",
+    "alternativaB": "tryLock com timeout e, opcionalmente, política de fairness",
+    "alternativaC": "Dispensa de unlock, pois o lock é liberado pelo GC",
+    "alternativaD": "Uso sem o pacote java.util.concurrent.locks",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Chamar parallelStream() em uma lista:",
+    "alternativaA": "Garante resultado determinístico mesmo com estado compartilhado sem sincronização",
+    "alternativaB": "É sempre mais rápido do que stream() sequencial",
+    "alternativaC": "Pode particionar o trabalho em threads do ForkJoinPool comum",
+    "alternativaD": "Impede efeitos colaterais dentro de predicados e mapeamentos",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Por que try-with-resources é preferível a confiar em finalize() para fechar um recurso?",
+    "alternativaA": "finalize() é chamado de forma determinística no instante em que o bloco termina",
+    "alternativaB": "try-with-resources só pode ser usado com arquivos de texto",
+    "alternativaC": "finalize() impede vazamento de memória de forma garantida pelo JLS",
+    "alternativaD": "try-with-resources fecha o AutoCloseable ao fim do bloco, de forma determinística",
+    "respostaCorreta": "D"
+  }
+]

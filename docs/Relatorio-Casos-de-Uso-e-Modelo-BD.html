@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rei do Código — Diagrama de Casos de Uso e Modelo de Dados</title>
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #4a4a4a;
+      --line: #2b2b2b;
+      --fill: #f4f4f4;
+      --header: #1e3a5f;
+      --paper: #ffffff;
+      --accent: #1e3a5f;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #e8e8e8;
+      color: var(--ink);
+      font-family: "Segoe UI", Calibri, "Liberation Sans", sans-serif;
+    }
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 20px;
+      background: #1e3a5f;
+      color: #fff;
+    }
+    .toolbar p { margin: 0; font-size: 14px; }
+    .toolbar button {
+      border: 0;
+      background: #fff;
+      color: #1e3a5f;
+      font-weight: 600;
+      padding: 8px 14px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .sheet {
+      width: 1120px;
+      max-width: 100%;
+      margin: 24px auto;
+      background: var(--paper);
+      padding: 36px 40px 28px;
+    }
+    h1 {
+      margin: 0 0 4px;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    .subtitle {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    h2 {
+      margin: 0 0 8px;
+      font-size: 16px;
+      font-weight: 700;
+      border-bottom: 1.5px solid var(--header);
+      padding-bottom: 6px;
+      color: var(--header);
+    }
+    .note {
+      margin: 0 0 14px;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+    svg { width: 100%; height: auto; display: block; }
+    .page { page-break-after: always; }
+    .page:last-child { page-break-after: auto; }
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      margin-top: 10px;
+      font-size: 11px;
+      color: var(--muted);
+    }
+    .legend span { display: inline-flex; align-items: center; gap: 6px; }
+    .swatch-line, .swatch-dash {
+      width: 28px;
+      height: 0;
+      border-top: 1.5px solid var(--line);
+      display: inline-block;
+    }
+    .swatch-dash { border-top-style: dashed; }
+    @media print {
+      html, body { background: #fff; }
+      .toolbar { display: none !important; }
+      .sheet {
+        width: auto;
+        margin: 0;
+        padding: 8mm 10mm;
+        box-shadow: none;
+      }
+      @page { size: A4 landscape; margin: 8mm; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <p>Relatório para TCC — apenas diagrama de casos de uso e modelagem do banco</p>
+    <button type="button" onclick="window.print()">Imprimir / Salvar PDF</button>
+  </div>
+
+  <section class="sheet page">
+    <h1>Rei do Código</h1>
+    <p class="subtitle">Relatório de modelagem do backend · Diagrama de casos de uso e modelo de dados · PostgreSQL / Spring Data JPA</p>
+
+    <h2>1. Diagrama de casos de uso</h2>
+    <p class="note">
+      Ator: Jogador (único ator deste diagrama). A execução do código (processo local ou Judge0)
+      é responsabilidade interna do sistema, representada pelo «include» <em>Executar casos de teste</em>,
+      e não por um ator. Relacionamentos <em>include</em> são obrigatórios; <em>extend</em> são opcionais.
+    </p>
+
+    <svg viewBox="0 0 1080 620" role="img" aria-label="Diagrama UML de casos de uso do sistema Rei do Código">
+      <g fill="none" stroke="#1a1a1a" stroke-width="1.6">
+        <circle cx="70" cy="300" r="12" />
+        <line x1="70" y1="312" x2="70" y2="350" />
+        <line x1="52" y1="326" x2="88" y2="326" />
+        <line x1="70" y1="350" x2="54" y2="378" />
+        <line x1="70" y1="350" x2="86" y2="378" />
+      </g>
+      <text x="70" y="400" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a1a">Jogador</text>
+
+      <rect x="150" y="18" width="880" height="584" fill="none" stroke="#1a1a1a" stroke-width="1.4" />
+      <text x="590" y="42" text-anchor="middle" font-size="13" font-weight="700" fill="#1e3a5f">Sistema Rei do Código</text>
+
+      <g font-size="12" text-anchor="middle">
+        <ellipse cx="330" cy="88" rx="102" ry="28" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="330" y="92" fill="#1a1a1a">Cadastrar perfil</text>
+
+        <ellipse cx="330" cy="160" rx="102" ry="28" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="330" y="164" fill="#1a1a1a">Explorar corredor</text>
+
+        <ellipse cx="330" cy="232" rx="102" ry="28" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="330" y="236" fill="#1a1a1a">Iniciar batalha</text>
+
+        <ellipse cx="330" cy="304" rx="102" ry="28" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="330" y="308" fill="#1a1a1a">Responder pergunta</text>
+
+        <ellipse cx="330" cy="376" rx="102" ry="28" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="330" y="380" fill="#1a1a1a">Resolver desafio</text>
+
+        <ellipse cx="330" cy="448" rx="102" ry="28" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="330" y="452" fill="#1a1a1a">Novo Jogo+</text>
+
+        <ellipse cx="330" cy="520" rx="102" ry="28" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="330" y="524" fill="#1a1a1a">Consultar batalha</text>
+
+        <ellipse cx="640" cy="88" rx="112" ry="30" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="640" y="84" fill="#1a1a1a">Reiniciar após</text>
+        <text x="640" y="100" fill="#1a1a1a">vencer o Rei</text>
+
+        <ellipse cx="640" cy="232" rx="112" ry="30" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="640" y="228" fill="#1a1a1a">Validar ordem</text>
+        <text x="640" y="244" fill="#1a1a1a">no corredor</text>
+
+        <ellipse cx="640" cy="340" rx="112" ry="30" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="640" y="336" fill="#1a1a1a">Aplicar resultado</text>
+        <text x="640" y="352" fill="#1a1a1a">de combate</text>
+
+        <ellipse cx="640" cy="416" rx="112" ry="30" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="640" y="412" fill="#1a1a1a">Executar casos</text>
+        <text x="640" y="428" fill="#1a1a1a">de teste</text>
+
+        <ellipse cx="640" cy="492" rx="112" ry="30" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="640" y="488" fill="#1a1a1a">Limpar batalhas e</text>
+        <text x="640" y="504" fill="#1a1a1a">perguntas usadas</text>
+
+        <ellipse cx="640" cy="568" rx="112" ry="30" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="640" y="564" fill="#1a1a1a">Usar terminal</text>
+        <text x="640" y="580" fill="#1a1a1a">interativo</text>
+      </g>
+
+      <g stroke="#1a1a1a" stroke-width="1.15">
+        <line x1="88" y1="330" x2="228" y2="88" />
+        <line x1="88" y1="332" x2="228" y2="160" />
+        <line x1="88" y1="334" x2="228" y2="232" />
+        <line x1="88" y1="336" x2="228" y2="304" />
+        <line x1="88" y1="338" x2="228" y2="376" />
+        <line x1="88" y1="340" x2="228" y2="448" />
+        <line x1="88" y1="342" x2="228" y2="520" />
+      </g>
+
+      <g stroke="#1e3a5f" stroke-width="1.15" stroke-dasharray="5 4" fill="none">
+        <line x1="432" y1="88" x2="528" y2="88" />
+        <line x1="432" y1="232" x2="528" y2="232" />
+        <line x1="432" y1="304" x2="528" y2="332" />
+        <line x1="432" y1="376" x2="528" y2="348" />
+        <line x1="432" y1="376" x2="528" y2="416" />
+        <line x1="432" y1="448" x2="528" y2="492" />
+        <line x1="432" y1="376" x2="528" y2="560" />
+      </g>
+      <g font-size="10" fill="#1e3a5f" text-anchor="middle">
+        <text x="480" y="80">«extend»</text>
+        <text x="480" y="224">«include»</text>
+        <text x="468" y="306">«include»</text>
+        <text x="490" y="372">«include»</text>
+        <text x="490" y="404">«include»</text>
+        <text x="480" y="458">«include»</text>
+        <text x="500" y="520">«extend»</text>
+      </g>
+
+    </svg>
+    <div class="legend">
+      <span><i class="swatch-line"></i> associação ator — caso de uso</span>
+      <span><i class="swatch-dash"></i> «include» (obrigatório) / «extend» (opcional)</span>
+    </div>
+  </section>
+
+  <section class="sheet page">
+    <h2>2. Modelagem do banco de dados</h2>
+    <p class="note">
+      Modelo lógico extraído das entidades JPA. SGBD: PostgreSQL. Identificadores em <strong>negrito</strong> (PK);
+      chaves estrangeiras em <em>itálico</em>. Linha tracejada indica referência lógica sem FK física no JPA
+      (<code>pergunta_atual_id</code>, <code>ultima_pergunta_id</code>, <code>desafio_atual_id</code> e
+      <code>usuario_perguntas_usadas.pergunta_id</code>).
+    </p>
+
+    <svg viewBox="0 0 1120 720" role="img" aria-label="Diagrama entidade-relacionamento do banco de dados">
+      <!-- USUARIOS -->
+      <g>
+        <rect x="20" y="20" width="230" height="214" fill="#fff" stroke="#1a1a1a" />
+        <rect x="20" y="20" width="230" height="28" fill="#1e3a5f" />
+        <text x="135" y="39" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">usuarios</text>
+        <text x="32" y="64" font-size="11" font-weight="700">id : BIGINT  PK</text>
+        <text x="32" y="82" font-size="11">nome : VARCHAR  UK</text>
+        <text x="32" y="100" font-size="11">linguagem : VARCHAR(20)</text>
+        <text x="32" y="118" font-size="11">nivel : VARCHAR(20)</text>
+        <text x="32" y="136" font-size="11">progresso : INTEGER</text>
+        <text x="32" y="154" font-size="11">venceu_rei : BOOLEAN</text>
+        <text x="32" y="178" font-size="10" fill="#4a4a4a">linguagem ∈ {JAVA, PYTHON, CPP}</text>
+        <text x="32" y="194" font-size="10" fill="#4a4a4a">nivel ∈ {INICIANTE,</text>
+        <text x="32" y="208" font-size="10" fill="#4a4a4a">INTERMEDIARIO, AVANCADO}</text>
+      </g>
+
+      <!-- INIMIGOS -->
+      <g>
+        <rect x="445" y="20" width="230" height="196" fill="#fff" stroke="#1a1a1a" />
+        <rect x="445" y="20" width="230" height="28" fill="#1e3a5f" />
+        <text x="560" y="39" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">inimigos</text>
+        <text x="457" y="64" font-size="11" font-weight="700">id : BIGINT  PK</text>
+        <text x="457" y="82" font-size="11">nome : VARCHAR</text>
+        <text x="457" y="100" font-size="11">ordem_no_corredor : INT  UK</text>
+        <text x="457" y="118" font-size="11">tipo : VARCHAR</text>
+        <text x="457" y="136" font-size="11">vida_maxima : INTEGER</text>
+        <text x="457" y="154" font-size="11">eh_rei : BOOLEAN</text>
+        <text x="457" y="172" font-size="11">descricao : VARCHAR</text>
+        <text x="457" y="196" font-size="10" fill="#4a4a4a">tipo ∈ {MULTIPLA_ESCOLHA, CODIGO}</text>
+      </g>
+
+      <!-- BATALHAS -->
+      <g>
+        <rect x="232" y="300" width="250" height="268" fill="#fff" stroke="#1a1a1a" />
+        <rect x="232" y="300" width="250" height="28" fill="#1e3a5f" />
+        <text x="357" y="319" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">batalhas</text>
+        <text x="244" y="344" font-size="11" font-weight="700">id : BIGINT  PK</text>
+        <text x="244" y="362" font-size="11" font-style="italic">usuario_id : BIGINT  FK</text>
+        <text x="244" y="380" font-size="11" font-style="italic">inimigo_id : BIGINT  FK</text>
+        <text x="244" y="398" font-size="11">vida_jogador : INTEGER</text>
+        <text x="244" y="416" font-size="11">vida_inimigo : INTEGER</text>
+        <text x="244" y="434" font-size="11">status : VARCHAR</text>
+        <text x="244" y="452" font-size="11">pergunta_atual : INTEGER</text>
+        <text x="244" y="470" font-size="11" font-style="italic">pergunta_atual_id : BIGINT</text>
+        <text x="244" y="488" font-size="11" font-style="italic">ultima_pergunta_id : BIGINT</text>
+        <text x="244" y="506" font-size="11" font-style="italic">desafio_atual_id : BIGINT</text>
+        <text x="244" y="524" font-size="11">iniciada_em : TIMESTAMP</text>
+        <text x="244" y="542" font-size="11">finalizada_em : TIMESTAMP</text>
+        <text x="244" y="560" font-size="10" fill="#4a4a4a">status ∈ {EM_ANDAMENTO, VITORIA, DERROTA}</text>
+      </g>
+
+      <!-- PERGUNTAS -->
+      <g>
+        <rect x="860" y="20" width="240" height="250" fill="#fff" stroke="#1a1a1a" />
+        <rect x="860" y="20" width="240" height="28" fill="#1e3a5f" />
+        <text x="980" y="39" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">perguntas</text>
+        <text x="872" y="64" font-size="11" font-weight="700">id : BIGINT  PK</text>
+        <text x="872" y="82" font-size="11" font-style="italic">inimigo_id : BIGINT  FK nulo</text>
+        <text x="872" y="100" font-size="11">linguagem : VARCHAR(20)</text>
+        <text x="872" y="118" font-size="11">nivel : VARCHAR(20)</text>
+        <text x="872" y="136" font-size="11">enunciado : VARCHAR(2000)</text>
+        <text x="872" y="154" font-size="11">alternativa_a : VARCHAR</text>
+        <text x="872" y="172" font-size="11">alternativa_b : VARCHAR</text>
+        <text x="872" y="190" font-size="11">alternativa_c : VARCHAR</text>
+        <text x="872" y="208" font-size="11">alternativa_d : VARCHAR</text>
+        <text x="872" y="226" font-size="11">resposta_correta : CHAR(1)</text>
+        <text x="872" y="244" font-size="11">ordem : INTEGER</text>
+        <text x="872" y="262" font-size="10" fill="#4a4a4a">índice (linguagem, nivel)</text>
+      </g>
+
+      <!-- DESAFIOS -->
+      <g>
+        <rect x="860" y="300" width="240" height="168" fill="#fff" stroke="#1a1a1a" />
+        <rect x="860" y="300" width="240" height="28" fill="#1e3a5f" />
+        <text x="980" y="319" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">desafios_codigo</text>
+        <text x="872" y="344" font-size="11" font-weight="700">id : BIGINT  PK</text>
+        <text x="872" y="362" font-size="11" font-style="italic">inimigo_id : BIGINT  FK</text>
+        <text x="872" y="380" font-size="11">linguagem : VARCHAR</text>
+        <text x="872" y="398" font-size="11">enunciado : VARCHAR(4000)</text>
+        <text x="872" y="416" font-size="11">codigo_inicial : VARCHAR(2000)</text>
+        <text x="872" y="434" font-size="11">entrada_exemplo : VARCHAR(1000)</text>
+        <text x="872" y="452" font-size="11">saida_exemplo : VARCHAR(1000)</text>
+      </g>
+
+      <!-- CASOS TESTE -->
+      <g>
+        <rect x="860" y="520" width="240" height="150" fill="#fff" stroke="#1a1a1a" />
+        <rect x="860" y="520" width="240" height="28" fill="#1e3a5f" />
+        <text x="980" y="539" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">casos_teste</text>
+        <text x="872" y="564" font-size="11" font-weight="700">id : BIGINT  PK</text>
+        <text x="872" y="582" font-size="11" font-style="italic">desafio_id : BIGINT  FK</text>
+        <text x="872" y="600" font-size="11">entrada : VARCHAR(2000)</text>
+        <text x="872" y="618" font-size="11">saida_esperada : VARCHAR(2000)</text>
+        <text x="872" y="636" font-size="11">oculto : BOOLEAN</text>
+        <text x="872" y="654" font-size="11">ordem : INTEGER</text>
+      </g>
+
+      <!-- N:N perguntas usadas -->
+      <g>
+        <rect x="20" y="430" width="230" height="110" fill="#fff" stroke="#1a1a1a" />
+        <rect x="20" y="430" width="230" height="28" fill="#1e3a5f" />
+        <text x="135" y="449" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">usuario_perguntas_usadas</text>
+        <text x="32" y="474" font-size="11" font-weight="700" font-style="italic">usuario_id : BIGINT  PK, FK</text>
+        <text x="32" y="492" font-size="11" font-weight="700" font-style="italic">pergunta_id : BIGINT  PK</text>
+        <text x="32" y="516" font-size="10" fill="#4a4a4a">histórico da run; zera no Novo Jogo+</text>
+      </g>
+
+      <!-- Relacionamentos físicos -->
+      <g stroke="#1a1a1a" stroke-width="1.2" fill="none">
+        <!-- usuarios 1 -- * batalhas -->
+        <path d="M135 234 L135 300 L232 330" />
+        <!-- inimigos 1 -- * batalhas -->
+        <path d="M560 216 L560 300 L482 330" />
+        <!-- inimigos 1 -- * perguntas -->
+        <path d="M675 80 L860 80" />
+        <!-- inimigos 1 -- * desafios -->
+        <path d="M675 150 L780 150 L780 360 L860 360" />
+        <!-- desafios 1 -- * casos -->
+        <path d="M980 468 L980 520" />
+        <!-- usuarios 1 -- * usadas -->
+        <path d="M80 234 L80 430" />
+      </g>
+
+      <!-- Crow's feet (many side) -->
+      <g stroke="#1a1a1a" stroke-width="1.2" fill="none">
+        <polyline points="226,322 232,330 226,338" />
+        <polyline points="488,322 482,330 488,338" />
+        <polyline points="854,72 860,80 854,88" />
+        <polyline points="854,352 860,360 854,368" />
+        <polyline points="972,514 980,520 988,514" />
+        <polyline points="72,424 80,430 88,424" />
+      </g>
+
+      <!-- Cardinalidades -->
+      <g font-size="11" fill="#1e3a5f" font-weight="600">
+        <text x="118" y="270">1</text>
+        <text x="210" y="318">N</text>
+        <text x="568" y="270">1</text>
+        <text x="490" y="318">N</text>
+        <text x="690" y="72">1</text>
+        <text x="820" y="72">N</text>
+        <text x="790" y="348">1</text>
+        <text x="830" y="348">N</text>
+        <text x="990" y="496">1</text>
+        <text x="990" y="514">N</text>
+        <text x="90" y="320">1</text>
+        <text x="90" y="418">N</text>
+      </g>
+
+      <!-- Referências lógicas (tracejado) -->
+      <g stroke="#1e3a5f" stroke-width="1.1" stroke-dasharray="4 3" fill="none">
+        <path d="M482 470 L860 140" />
+        <path d="M482 506 L860 384" />
+        <path d="M250 474 L860 200" />
+      </g>
+      <g font-size="10" fill="#1e3a5f">
+        <text x="620" y="300">ref. lógica perguntas</text>
+        <text x="700" y="430">ref. lógica desafio</text>
+        <text x="300" y="410">ref. lógica pergunta</text>
+      </g>
+    </svg>
+    <div class="legend">
+      <span><i class="swatch-line"></i> FK física (JPA @ManyToOne / @JoinColumn)</span>
+      <span><i class="swatch-dash"></i> referência lógica (Long persistido, sem constraint)</span>
+      <span>Cardinalidade 1:N no corredor: um jogador disputa várias batalhas; um inimigo possui vários desafios e, opcionalmente, perguntas.</span>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,242 @@
+﻿arquivo,indice,dificuldade,motivos,enunciado,alternativaA,alternativaB,alternativaC,alternativaD,respostaCorreta
+perguntas-cpp.json,1,1,"distractors_genericos_reciclados (ponteiro, protected, int)",Qual tipo inteiro?,ponteiro,protected,int,template,C
+perguntas-cpp.json,3,1,"distractors_genericos_reciclados (caractere, double, booleano) | par_invertido_enunciado_usa_texto_da_resposta",O que representa ponto flutuante de precisão dupla?,caractere,double,booleano,inteiro,B
+perguntas-cpp.json,5,1,"distractors_genericos_reciclados (enum, void, inteiro) | par_invertido_enunciado_usa_texto_da_resposta",O que representa ponto flutuante de precisão simples?,enum,void,inteiro,float,D
+perguntas-cpp.json,7,1,"distractors_genericos_reciclados (string, char, void)",O que é caractere?,string,char,void,booleano,B
+perguntas-cpp.json,9,1,"distractors_genericos_reciclados (ponteiro, inteiro, bool)",Qual tipo booleano?,ponteiro,referência,inteiro,bool,D
+perguntas-cpp.json,11,1,"distractors_genericos_reciclados (inteiro, namespace, classe) | par_invertido_enunciado_usa_texto_da_resposta",O que representa sem valor de retorno / tipo vazio?,inteiro,namespace,classe,void,D
+perguntas-cpp.json,12,1,"distractors_genericos_reciclados (macro, namespace) | molde_tipo_em_pergunta_de_proposito (2/4 alternativas sao rotulos de tipo)",Para que serve a palavra-chave class?,macro,declara uma classe,namespace,inclui header,B
+perguntas-cpp.json,13,1,"distractors_genericos_reciclados (namespace, macro)",Como se declara uma classe?,inclui,namespace,macro,class,D
+perguntas-cpp.json,14,1,"alternativas_curtas_sem_descricao_de_uso | alternativas_desconexas_sem_verbo_de_acao | distractors_genericos_reciclados (namespace, macro) | molde_tipo_em_pergunta_de_proposito (2/4 alternativas sao rotulos de tipo)",Para que serve a palavra-chave struct?,namespace,macro,somente ponteiro,agregado de dados (por padrão public),D
+perguntas-cpp.json,15,1,"distractors_genericos_reciclados (macro, namespace) | par_invertido_enunciado_usa_texto_da_resposta",O que é agregado de dados (por padrão public)?,somente,macro,struct,namespace,C
+perguntas-cpp.json,16,1,alternativas_curtas_sem_descricao_de_uso,Para que serve o modificador public?,friend,privado,protegido,acesso público,D
+perguntas-cpp.json,18,1,alternativas_curtas_sem_descricao_de_uso,Para que serve o modificador private?,acesso privado,público,namespace,include,A
+perguntas-cpp.json,19,1,"distractors_genericos_reciclados (private, namespace)",Qual modificador garante acesso privado?,include,público,private,namespace,C
+perguntas-cpp.json,22,1,alternativas_curtas_sem_descricao_de_uso,Para que serve o modificador const?,valor não modificável (conforme contexto),sempre heap,sempre static,macro,A
+perguntas-cpp.json,23,1,par_invertido_enunciado_usa_texto_da_resposta,O que representa valor não modificável (conforme contexto)?,class,sempre,macro,const,D
+perguntas-cpp.json,24,1,"alternativas_curtas_sem_descricao_de_uso | alternativas_desconexas_sem_verbo_de_acao | distractors_genericos_reciclados (namespace, macro) | molde_tipo_em_pergunta_de_proposito (2/4 alternativas sao rotulos de tipo)",Para que serve a palavra-chave enum?,namespace,enumeração,include,macro,B
+perguntas-cpp.json,25,1,"distractors_genericos_reciclados (namespace, enum, macro)",O que é enumeração?,namespace,include,enum,macro,C
+perguntas-cpp.json,28,1,alternativas_curtas_sem_descricao_de_uso,Para que serve o recurso std::cout? da biblioteca padrão?,erro padrão apenas,entrada padrão,saída padrão,arquivo,C
+perguntas-cpp.json,30,1,alternativas_curtas_sem_descricao_de_uso,Para que serve o recurso std::cin? da biblioteca padrão?,namespace,heap,saída padrão,entrada padrão,D
+perguntas-cpp.json,33,1,alternativas_curtas_sem_descricao_de_uso,Para que serve o recurso std::string? da biblioteca padrão?,vector<int>,string da biblioteca padrão,char* apenas,map,B
+perguntas-cpp.json,44,1,par_invertido_enunciado_usa_texto_da_resposta,O que é a compilação tipicamente gera?,Python bytecode,bytecode JVM,código de máquina/objeto,SQL,C
+perguntas-cpp.json,46,1,"distractors_genericos_reciclados (true, false)",Qual o resultado da expressão true && false?,true,1,false,0 como bool texto,C
+perguntas-cpp.json,53,1,"distractors_genericos_reciclados (true, false)",Qual o resultado da expressão nullptr == nullptr?,UB,erro de compilação,true,false,C
+perguntas-cpp.json,57,1,"distractors_genericos_reciclados (void, int, string)",Qual tipo fundamental armazena inteiros?,bool só,void,int,string,C
+perguntas-cpp.json,60,1,"distractors_genericos_reciclados (char, void, bool)",Qual tipo representa verdadeiro/falso?,char,void,int obrigatório,bool,D
+perguntas-cpp.json,62,1,"distractors_genericos_reciclados (protected, private, public)",Qual modificador torna membro público?,protected,private,friend,public,D
+perguntas-cpp.json,71,1,"distractors_genericos_reciclados (true, false)",O que significa nullptr == nullptr?,true,UB,false,erro de compilação,A
+perguntas-cpp.json,77,1,"distractors_genericos_reciclados (double, bool, char)",Qual tipo decimal de precisão dupla?,double,bool,char,int,A
+perguntas-cpp.json,87,1,alternativas_curtas_sem_descricao_de_uso,Para que serve std::string na prática?,gerencia sequência de caracteres,2,Hi,class,A
+perguntas-cpp.json,92,1,alternativas_curtas_sem_descricao_de_uso,Para que serve for range (C++11) na prática?,percorre elementos de um container,std::deque,<array>,public,A
+perguntas-cpp.json,102,1,"distractors_genericos_reciclados (int, char)",Qual tipo inteiro mais comum?,int,integer,number,char,A
+perguntas-cpp.json,103,1,"distractors_genericos_reciclados (char, string, byte)",Qual tipo representa caractere único?,char,string,byte,wchar only,A
+perguntas-cpp.json,104,1,"distractors_genericos_reciclados (double, float)",Qual tipo floating de precisão dupla?,double,float,real,decimal,A
+perguntas-cpp.json,112,1,"distractors_genericos_reciclados (char, byte[])",Qual literal de string usa aspas duplas?,const char*/string,char,byte[],text,A
+perguntas-cpp.json,129,1,"distractors_genericos_reciclados (int, long, byte)",Qual tipo tamanho sem sinal comum para tamanhos?,size_t,int,long,byte,A
+perguntas-cpp.json,140,1,"distractors_genericos_reciclados (char, bool)",Qual tipo é adequado para contar elementos sem sinal?,size_t,int sempre,char,bool,A
+perguntas-cpp.json,150,2,alternativas_curtas_sem_descricao_de_uso,Para que serve o modificador protected?,somente global,typedef,macro,acesso protegido,D
+perguntas-cpp.json,151,2,"distractors_genericos_reciclados (macro, protected)",Qual modificador garante acesso protegido?,typedef,macro,protected,somente,C
+perguntas-cpp.json,152,2,alternativas_curtas_sem_descricao_de_uso,Para que serve a palavra-chave using?,linka,deleta memória,compila,introduz nomes/aliases,D
+perguntas-cpp.json,155,2,par_invertido_enunciado_usa_texto_da_resposta,O que é o aloca memória no heap?,new,abre,define,libera,A
+perguntas-cpp.json,157,2,par_invertido_enunciado_usa_texto_da_resposta,O que é o libera memória alocada com new?,cria,include,delete,aloca,C
+perguntas-cpp.json,158,2,alternativas_desconexas_sem_verbo_de_acao | molde_tipo_em_pergunta_de_proposito (3/4 alternativas sao rotulos de tipo) | resposta_correta_e_rotulo_de_tipo_em_pergunta_de_proposito,Para que serve a palavra-chave nullptr?,referência,inteiro 0 tipado como int sempre,bool true,ponteiro nulo moderno,D
+perguntas-cpp.json,159,2,"distractors_genericos_reciclados (bool, inteiro)",O que é ponteiro nulo moderno?,referência,bool,inteiro,nullptr,D
+perguntas-cpp.json,160,2,alternativas_curtas_sem_descricao_de_uso,Para que serve o modificador static?,sempre heap,sempre virtual,sempre template,duração/ligação/estático conforme contexto,D
+perguntas-cpp.json,165,2,par_invertido_enunciado_usa_texto_da_resposta,O que é o marca sobrescrita de método virtual?,cria,override,define,include,B
+perguntas-cpp.json,168,2,alternativas_curtas_sem_descricao_de_uso | alternativas_desconexas_sem_verbo_de_acao | molde_tipo_em_pergunta_de_proposito (3/4 alternativas sao rotulos de tipo),Para que serve a palavra-chave auto?,inferência de tipo,referência obrigatória,ponteiro obrigatório,macro,A
+perguntas-cpp.json,169,2,"distractors_genericos_reciclados (ponteiro, macro)",O que representa inferência de tipo?,referência,ponteiro,auto,macro,C
+perguntas-cpp.json,170,2,"alternativas_curtas_sem_descricao_de_uso | alternativas_desconexas_sem_verbo_de_acao | distractors_genericos_reciclados (namespace, macro) | molde_tipo_em_pergunta_de_proposito (2/4 alternativas sao rotulos de tipo)",Para que serve a palavra-chave try?,namespace,include,macro,bloco para exceções,D
+perguntas-cpp.json,171,2,"distractors_genericos_reciclados (namespace, macro) | par_invertido_enunciado_usa_texto_da_resposta",O que é bloco para exceções?,namespace,include,macro,try,D
+perguntas-cpp.json,172,2,alternativas_curtas_sem_descricao_de_uso,Para que serve a palavra-chave catch?,new,delete,captura exceção,throw sempre,C
+perguntas-cpp.json,173,2,par_invertido_enunciado_usa_texto_da_resposta,O que é o captura exceção?,new,catch,throw,delete,B
+perguntas-cpp.json,175,2,par_invertido_enunciado_usa_texto_da_resposta,O que é o lança exceção?,using,include,captura,throw,D
+perguntas-cpp.json,176,2,"alternativas_curtas_sem_descricao_de_uso | alternativas_desconexas_sem_verbo_de_acao | distractors_genericos_reciclados (ponteiro, macro) | molde_tipo_em_pergunta_de_proposito (3/4 alternativas sao rotulos de tipo)",Para que serve enum class?,ponteiro,macro,referência,enumeração tipada/escopada,D
+perguntas-cpp.json,177,2,"distractors_genericos_reciclados (ponteiro, macro)",O que caracteriza um enum class?,ponteiro,referência,enum class,macro,C
+perguntas-cpp.json,179,2,par_invertido_enunciado_usa_texto_da_resposta,O que é tamanho em bytes do tipo/objeto?,hash,quantidade,endereço,sizeof,D
+perguntas-cpp.json,180,2,alternativas_curtas_sem_descricao_de_uso,Para que serve a palavra-chave typedef?,virtual,alias de tipo antigo,deleta memória,override,B
+perguntas-cpp.json,181,2,par_invertido_enunciado_usa_texto_da_resposta,O que é alias de tipo antigo?,typedef,deleta,virtual,override,A
+perguntas-cpp.json,182,2,alternativas_curtas_sem_descricao_de_uso,Para que serve using (alias)?,delete,alias de tipo moderno,throw,new,B
+perguntas-cpp.json,183,2,par_invertido_enunciado_usa_texto_da_resposta,O que é alias de tipo moderno?,using (alias),delete,throw,new,A
+perguntas-cpp.json,184,2,"alternativas_curtas_sem_descricao_de_uso | alternativas_desconexas_sem_verbo_de_acao | distractors_genericos_reciclados (template, classe, namespace) | molde_tipo_em_pergunta_de_proposito (3/4 alternativas sao rotulos de tipo)",Para que serve a diretiva de pré-processador #define?,macro do pré-processador,template,classe,namespace,A
+perguntas-cpp.json,185,2,"distractors_genericos_reciclados (template, classe, namespace)",O que é macro do pré-processador?,template,classe,namespace,#define,D
+perguntas-cpp.json,186,2,alternativas_curtas_sem_descricao_de_uso,Para que serve o recurso std::map? da biblioteca padrão?,stack,queue,vector,mapa ordenado chave-valor,D
+perguntas-cpp.json,187,2,alternativas_curtas_sem_descricao_de_uso,Para que serve o recurso std::unordered_map? da biblioteca padrão?,vector,set,map ordenado,mapa hash,D
+perguntas-cpp.json,188,2,alternativas_curtas_sem_descricao_de_uso,Para que serve o recurso std::set? da biblioteca padrão?,conjunto ordenado único,vector,list,stack,A
+perguntas-cpp.json,189,2,alternativas_curtas_sem_descricao_de_uso,Para que serve o recurso std::unordered_set? da biblioteca padrão?,deque,vector,conjunto hash único,map,C
+perguntas-cpp.json,190,2,alternativas_curtas_sem_descricao_de_uso,Para que serve o recurso std::stack? da biblioteca padrão?,set,adaptador LIFO,map,queue FIFO,B
+perguntas-cpp.json,191,2,alternativas_curtas_sem_descricao_de_uso,Para que serve o recurso std::queue? da biblioteca padrão?,stack LIFO,adaptador FIFO,map,set,B
+perguntas-cpp.json,197,2,"distractors_genericos_reciclados (macro, ponteiro nulo)",O que significa Referência (&)?,macro,ponteiro nulo,apelido para um objeto existente,sempre heap,C
+perguntas-cpp.json,204,2,"distractors_genericos_reciclados (void, false, true)",Qual afirmação descreve corretamente nullptr é preferível a?,void,false,true,NULL/0 para ponteiros,D
+perguntas-cpp.json,212,2,"distractors_genericos_reciclados (bool, double, int)","Dado o código `auto x = 1;`, qual tipo é inferido para x?",bool,long obrigatório,double,int,D
+perguntas-cpp.json,225,2,"distractors_genericos_reciclados (macro, ponteiro nulo)",O que significa Referência?,macro,ponteiro nulo,sempre heap,apelido para objeto existente,D
+perguntas-cpp.json,228,2,par_invertido_enunciado_usa_texto_da_resposta,O que é o exception não capturada chama?,warning,ignore,nullptr,terminate,D
+perguntas-cpp.json,233,2,"distractors_genericos_reciclados (ponteiro, macro)",O que significa Enum class?,enumeração tipada/escopada,referência,ponteiro,macro,A
+perguntas-cpp.json,250,3,alternativas_curtas_sem_descricao_de_uso,Para que serve o modificador constexpr?,somente heap,expressão constante em tempo de compilação,somente runtime,somente I/O,B
+perguntas-cpp.json,251,3,par_invertido_enunciado_usa_texto_da_resposta,O que representa expressão constante em tempo de compilação?,throw,static,somente,constexpr,D
+perguntas-cpp.json,252,3,alternativas_curtas_sem_descricao_de_uso,Para que serve a palavra-chave template?,programação genérica,somente threads,somente OOP,somente I/O,A
+perguntas-cpp.json,253,3,"distractors_genericos_reciclados (template, char)",O que representa programação genérica?,template,char,somente,std::string,A
+perguntas-cpp.json,256,3,alternativas_curtas_sem_descricao_de_uso,Para que serve decltype?,obtém tipo de expressão,include,namespace,deleta memória,A
+perguntas-cpp.json,257,3,par_invertido_enunciado_usa_texto_da_resposta,O que é o obtém tipo de expressão?,include,decltype,deleta,namespace,B
+perguntas-cpp.json,259,3,par_invertido_enunciado_usa_texto_da_resposta,O que é o concede acesso a privados?,impede,cria,define,friend,D
+perguntas-cpp.json,260,3,alternativas_curtas_sem_descricao_de_uso,Para que serve o modificador inline?,sempre virtual,sempre heap,sempre template,sugestão/definição inline,D
+perguntas-cpp.json,262,3,alternativas_curtas_sem_descricao_de_uso,Para que serve o recurso std::deque? da biblioteca padrão?,fila de duas pontas,apenas map,apenas set,apenas stack,A
+perguntas-cpp.json,265,3,alternativas_desconexas_sem_verbo_de_acao | molde_tipo_em_pergunta_de_proposito (2/4 alternativas sao rotulos de tipo),Para que serve o recurso std::unique_ptr? da biblioteca padrão?,ponteiro inteligente com posse exclusiva,raw new sem delete,referência,shared_ptr,A
+perguntas-cpp.json,266,3,"alternativas_curtas_sem_descricao_de_uso | alternativas_desconexas_sem_verbo_de_acao | distractors_genericos_reciclados (int, bool) | molde_tipo_em_pergunta_de_proposito (3/4 alternativas sao rotulos de tipo) | resposta_correta_e_rotulo_de_tipo_em_pergunta_de_proposito",Para que serve o recurso std::shared_ptr? da biblioteca padrão?,int,ponteiro inteligente com posse compartilhada,bool,unique_ptr exclusivo,B
+perguntas-cpp.json,269,3,alternativas_curtas_sem_descricao_de_uso,Para que serve o recurso std::optional? da biblioteca padrão?,map,mutex,vector,valor opcional,D
+perguntas-cpp.json,270,3,alternativas_curtas_sem_descricao_de_uso,Para que serve o recurso std::tuple? da biblioteca padrão?,pair apenas,string,tupla de N valores,vector,C
+perguntas-cpp.json,281,3,"distractors_genericos_reciclados (string, int)",O que significa Weak_ptr?,string,int,observador sem manter posse,unique_ptr,C
+perguntas-cpp.json,293,3,"distractors_genericos_reciclados (macro, template)",Qual afirmação está correta sobre Override marca?,include,macro,sobrescrita de método virtual,template,C
+perguntas-cpp.json,298,3,par_invertido_enunciado_usa_texto_da_resposta,O que é o const correctness melhora?,GUI,SQL,contratos de não modificação,rede,C
+perguntas-cpp.json,307,3,"distractors_genericos_reciclados (string, int)",O que o weak_ptr é?,observador sem manter posse,string,int,unique_ptr,A
+perguntas-cpp.json,308,3,par_invertido_enunciado_usa_texto_da_resposta,O que é o move semantics ajuda a?,impedir referências,remover const,desativar STL,evitar cópias caras,D
+perguntas-cpp.json,309,3,"distractors_genericos_reciclados (macro, template)",O que é override marca?,macro,template,include,sobrescrita de método virtual,D
+perguntas-java.json,1,1,"distractors_genericos_reciclados (modificador, int, import)",Qual tipo primitivo armazena números inteiros?,toString,modificador,int,import,C
+perguntas-java.json,3,1,"distractors_genericos_reciclados (record, void, throws)",Qual tipo primitivo representa verdadeiro ou falso?,record,boolean,void,throws,B
+perguntas-java.json,5,1,"distractors_genericos_reciclados (double, char, byte)",Qual tipo primitivo de ponto flutuante de 64 bits?,double,char,byte,enum,A
+perguntas-java.json,7,1,"distractors_genericos_reciclados (interface, float, public)",Qual tipo primitivo de ponto flutuante de 32 bits?,interface,float,public,toString,B
+perguntas-java.json,9,1,"distractors_genericos_reciclados (throws, this, long)",Qual tipo primitivo armazena um caractere Unicode?,throws,this,long,char,D
+perguntas-java.json,11,1,"distractors_genericos_reciclados (byte, true, false)",Qual tipo inteiro de 8 bits?,byte,true,false,float,A
+perguntas-java.json,13,1,"distractors_genericos_reciclados (public, short, int)",Qual tipo inteiro de 16 bits?,public,for,short,int,C
+perguntas-java.json,15,1,"distractors_genericos_reciclados (null, long, void)",Qual tipo inteiro de 64 bits?,null,switch,long,void,C
+perguntas-java.json,23,1,"distractors_genericos_reciclados (void, public)",Qual modificador garante acesso liberado de qualquer lugar?,toString,void,só,public,D
+perguntas-java.json,24,1,alternativas_curtas_sem_descricao_de_uso,Para que serve o modificador private?,acesso global,acesso somente dentro da própria classe,só pacote,só subclasses,B
+perguntas-java.json,25,1,"distractors_genericos_reciclados (private, true)",Qual modificador garante acesso somente dentro da própria classe?,acesso,private,só,true,B
+perguntas-java.json,30,1,alternativas_desconexas_sem_verbo_de_acao | molde_tipo_em_pergunta_de_proposito (3/4 alternativas sao rotulos de tipo) | resposta_correta_e_rotulo_de_tipo_em_pergunta_de_proposito,Para que serve a palavra-chave this?,referencia a instância atual,referencia a superclasse,cria pacote,tipo primitivo,A
+perguntas-java.json,32,1,enunciado_malformado,Para que serve o operador ==?,diferente,compara igualdade de valor entre primitivos,referência estrita,atribuição,B
+perguntas-java.json,33,1,enunciado_malformado,Para que serve o operador =?,atribui um valor a uma variável,compara referência,compara igualdade,incrementa,A
+perguntas-java.json,34,1,enunciado_malformado,Para que serve o operador !=?,verifica diferença,OR lógico,atribuição,AND lógico,A
+perguntas-java.json,35,1,enunciado_malformado,Para que serve o operador &&?,XOR,AND bit a bit,AND lógico de curto-circuito,OR lógico,C
+perguntas-java.json,36,1,alternativas_curtas_sem_descricao_de_uso | enunciado_malformado,Para que serve o operador ||?,shift,NOT,OR lógico de curto-circuito,AND lógico,C
+perguntas-java.json,37,1,enunciado_malformado,Para que serve o operador !?,incremento,módulo,negação lógica,decremento,C
+perguntas-java.json,38,1,alternativas_curtas_sem_descricao_de_uso | enunciado_malformado,Para que serve o operador %?,divisão inteira,resto da divisão (módulo),potência,AND lógico,B
+perguntas-java.json,39,1,enunciado_malformado,Para que serve o operador ++?,decremento,shift,módulo,incremento,D
+perguntas-java.json,40,1,enunciado_malformado,Para que serve o operador --?,cast,concatenação,decremento,incremento,C
+perguntas-java.json,41,1,enunciado_malformado,Para que serve o operador +=?,só multiplica,só divide,só compara,soma e atribui,D
+perguntas-java.json,42,1,alternativas_curtas_sem_descricao_de_uso | enunciado_malformado,Para que serve o operador .?,pacote,exceção,herança,acesso a membro,D
+perguntas-java.json,44,1,alternativas_curtas_sem_descricao_de_uso,Para que serve o método o método trim() em ?,tornar maiúsculo,inverter texto,dividir texto,remover espaços nas extremidades,D
+perguntas-java.json,58,1,"distractors_genericos_reciclados (record, enum)",Qual laço repete enquanto a condição for verdadeira?,record,package,while,enum,C
+perguntas-java.json,65,1,"distractors_genericos_reciclados (enum, interface)",O que significa O tipo Integer?,enum,wrapper do primitivo int,primitivo,interface,B
+perguntas-java.json,73,1,par_invertido_enunciado_usa_texto_da_resposta,O que é um array int[3] índices válidos são?,"0,1,2,3","0,1,2","1,2,3","-1,0,1",B
+perguntas-java.json,74,1,"distractors_genericos_reciclados (String, double, int)",Qual tipo armazena texto?,String,double,int,boolean,A
+perguntas-java.json,80,1,"distractors_genericos_reciclados (true, null, false)","Dado o código `boolean r = true && false;`, qual o valor final de r?",true,0,null,false,D
+perguntas-java.json,81,1,"distractors_genericos_reciclados (true, false, null)","Dado o código `boolean r = true || false;`, qual o valor final de r?",true,false,null,1,A
+perguntas-java.json,82,1,"distractors_genericos_reciclados (true, false, null)","Dado o código `boolean r = !true;`, qual o valor final de r?",true,0,false,null,C
+perguntas-java.json,89,1,"distractors_genericos_reciclados (double, null)","O que significa ""java"".toUpperCase()?",JAVA,double,HashMap,null,A
+perguntas-java.json,90,1,"distractors_genericos_reciclados (main, double)","O que significa "" hi "".trim()?",else,hi,main,double,B
+perguntas-java.json,91,1,"distractors_genericos_reciclados (null, false, true)",Qual o resultado da expressão true == true?,1,null,false,true,D
+perguntas-java.json,92,1,"distractors_genericos_reciclados (false, true, null)",Qual o resultado da expressão 5 == 5?,false,true,null,5,B
+perguntas-java.json,93,1,"distractors_genericos_reciclados (null, false, true)",Qual o resultado da expressão 5 != 4?,null,false,true,1,C
+perguntas-java.json,94,1,"distractors_genericos_reciclados (double, String, int)",Qual tipo é mais adequado para armazenar texto?,double,String,int,long,B
+perguntas-java.json,95,1,"distractors_genericos_reciclados (double, long, int)",Qual tipo é mais adequado para flag verdadeiro/falso?,double,long,int,boolean,D
+perguntas-java.json,96,1,"distractors_genericos_reciclados (int, double, long)",Qual tipo é mais adequado para número inteiro comum?,int,double,boolean,long,A
+perguntas-java.json,97,1,"distractors_genericos_reciclados (int, double, long)",Qual tipo é mais adequado para número com casas decimais?,boolean,int,double,long,C
+perguntas-java.json,98,1,"distractors_genericos_reciclados (double, int, char)",Qual tipo é mais adequado para um único caractere?,double,int,char,long,C
+perguntas-java.json,99,1,"distractors_genericos_reciclados (long, int, double)",Qual tipo é mais adequado para inteiro muito grande (64 bits)?,long,boolean,int,double,A
+perguntas-java.json,101,1,"distractors_genericos_reciclados (int, void, String)",Qual tipo é usado para texto?,boolean,int,void,String,D
+perguntas-java.json,102,1,"distractors_genericos_reciclados (String, byte[], char)",Qual tipo primitivo armazena um caractere?,String,byte[],char,boolean,C
+perguntas-java.json,111,1,"distractors_genericos_reciclados (int, double, char)",Qual tipo decimal de 64 bits é comum?,boolean,int,double,char,C
+perguntas-java.json,112,1,"distractors_genericos_reciclados (private, protected, public)",Qual modificador torna um membro acessível em qualquer lugar?,private,protected,public,default,C
+perguntas-java.json,117,1,"distractors_genericos_reciclados (new, void)",Qual palavra-chave cria um objeto?,package,new,void,class,B
+perguntas-java.json,118,1,"distractors_genericos_reciclados (String, int, void)",Qual tipo NÃO retorna valor em um método?,String,int,void,boolean,C
+perguntas-java.json,119,1,"distractors_genericos_reciclados (Int, Bool)",Qual tipo wrapper corresponde a int?,Integer,Number,Int,Bool,A
+perguntas-java.json,125,1,"alternativas_desconexas_sem_verbo_de_acao | distractors_genericos_reciclados (main, tipo inteiro de 16 bits, float) | molde_tipo_em_pergunta_de_proposito (3/4 alternativas sao rotulos de tipo)",Para que serve String na prática?,é imutável após criada,main,tipo inteiro de 16 bits,float,A
+perguntas-java.json,131,1,"distractors_genericos_reciclados (String, short)",Qual descrição melhor se aplica a pacote java.lang?,é importado automaticamente,acesso somente dentro da própria classe,String,short,A
+perguntas-java.json,135,1,alternativas_desconexas_sem_verbo_de_acao | molde_tipo_em_pergunta_de_proposito (2/4 alternativas sao rotulos de tipo),Para que serve valor null na prática?,indica que a referência não aponta para objeto,import,Integer,tipo primitivo de ponto flutuante de 64 bits,A
+perguntas-java.json,140,1,alternativas_curtas_sem_descricao_de_uso,Para que serve autoboxing na prática?,converte primitivo em wrapper automaticamente,System.out.println,10,short,A
+perguntas-java.json,142,1,"distractors_genericos_reciclados (char, String, byte)",Qual tipo primitivo armazena um único caractere?,char,String,byte,int,A
+perguntas-java.json,144,1,"distractors_genericos_reciclados (false, null)",Qual valor lógico representa falso em Java?,false,False (variação 2),0,null,A
+perguntas-java.json,149,1,"distractors_genericos_reciclados (int, char, void)",Qual tipo é adequado para números inteiros comuns?,int,boolean,char,void,A
+perguntas-java.json,157,2,par_invertido_enunciado_usa_texto_da_resposta,"O que é pertence à classe, não à instância?",static,sempre,só,impede,A
+perguntas-java.json,160,2,alternativas_curtas_sem_descricao_de_uso,Para que serve o modificador abstract?,classe/método incompleto que exige implementação,método estático,variável local,pacote,A
+perguntas-java.json,163,2,"distractors_genericos_reciclados (true, protected)",Qual modificador garante acesso no pacote e em subclasses?,true,protected,somente,acesso,B
+perguntas-java.json,165,2,par_invertido_enunciado_usa_texto_da_resposta,O que é o inicia bloco monitorado para exceções?,declara,try,cria,encerra,B
+perguntas-java.json,167,2,par_invertido_enunciado_usa_texto_da_resposta,O que é o trata uma exceção capturada?,lança,declara,catch,importa,C
+perguntas-java.json,169,2,par_invertido_enunciado_usa_texto_da_resposta,"O que é bloco executado após try/catch, quase sempre?",nunca,só,substitui,finally,D
+perguntas-java.json,171,2,par_invertido_enunciado_usa_texto_da_resposta,O que é o lança uma exceção?,captura,cria,importa,throw,D
+perguntas-java.json,174,2,molde_tipo_em_pergunta_de_proposito (2/4 alternativas sao rotulos de tipo),Para que serve a palavra-chave super?,importa módulo,referencia a superclasse,cria thread,referencia a si mesmo,B
+perguntas-java.json,179,2,par_invertido_enunciado_usa_texto_da_resposta,O que representa inferência de tipo local (a partir do Java 10)?,substitui,toString,var,obrigatório,C
+perguntas-java.json,183,2,par_invertido_enunciado_usa_texto_da_resposta,O que representa ramo padrão em switch / método default em interface?,String,sempre,só,default,D
+perguntas-java.json,184,2,enunciado_malformado,Para que serve o operador ?:?,lambda,operador ternário,spread,operador diamante,B
+perguntas-java.json,188,2,alternativas_curtas_sem_descricao_de_uso,Para que serve o método o método Arrays.sort(...) em ?,inverter bits,ordenar um array,abrir socket,compilar classe,B
+perguntas-java.json,210,2,par_invertido_enunciado_usa_texto_da_resposta,O que é uma checked exception comum de I/O é?,IOException,ClassCastException,ArithmeticException,NullPointerException,A
+perguntas-java.json,224,2,"distractors_genericos_reciclados (int, long, String)","Dado o código var x = 10;, qual tipo é inferido para x?",int,long,Integer obrigatório,String,A
+perguntas-java.json,225,2,"distractors_genericos_reciclados (long, double, int)",Qual tipo é mais adequado para wrapper de int?,Integer,long,double,int,A
+perguntas-java.json,236,2,"distractors_genericos_reciclados (protected, private, public)",Qual modificador restringe acesso à própria classe?,protected,private,open,public,B
+perguntas-java.json,251,3,"distractors_genericos_reciclados (modificador, record)",Como se declara um tipo imutável de dados conciso?,modificador,cria,record,declara,C
+perguntas-java.json,253,3,par_invertido_enunciado_usa_texto_da_resposta,O que representa controle de exclusão mútua entre threads?,converte,ordena,synchronized,abre,C
+perguntas-java.json,255,3,par_invertido_enunciado_usa_texto_da_resposta,O que representa visibilidade de variável entre threads?,impede,torna,cria,volatile,D
+perguntas-java.json,256,3,alternativas_curtas_sem_descricao_de_uso,Para que serve o modificador transient?,campo não serializado,construtor padrão,campo obrigatório,método estático,A
+perguntas-java.json,257,3,par_invertido_enunciado_usa_texto_da_resposta,O que representa campo não serializado?,campo,transient,método,construtor,B
+perguntas-java.json,258,3,alternativas_curtas_sem_descricao_de_uso | alternativas_desconexas_sem_verbo_de_acao | molde_tipo_em_pergunta_de_proposito (2/4 alternativas sao rotulos de tipo),Para que serve o modificador native?,classe final,método abstrato,interface funcional,método implementado em código nativo,D
+perguntas-java.json,259,3,"distractors_genericos_reciclados (interface, classe) | par_invertido_enunciado_usa_texto_da_resposta",O que representa método implementado em código nativo?,método,interface,native,classe,C
+perguntas-java.json,260,3,alternativas_curtas_sem_descricao_de_uso,Para que serve o modificador strictfp?,GC manual,tipo genérico,precisão FP estrita,loop infinito,C
+perguntas-java.json,263,3,par_invertido_enunciado_usa_texto_da_resposta,O que representa verificação usada em asserções?,cria,importa,declara,assert,D
+perguntas-java.json,264,3,alternativas_curtas_sem_descricao_de_uso | enunciado_malformado,Para que serve o operador <<?,módulo,deslocamento de bits à esquerda,OR lógico,AND lógico,B
+perguntas-java.json,265,3,enunciado_malformado,Para que serve o operador >>?,cast,concatenação,incremento,deslocamento de bits à direita com sinal,D
+perguntas-java.json,266,3,enunciado_malformado,Para que serve o operador >>>?,XOR,AND bit a bit,deslocamento de bits à direita sem sinal,OR bit a bit,C
+perguntas-java.json,267,3,enunciado_malformado,Para que serve o operador &?,AND bit a bit (também pode ser lógico sem curto-circuito),módulo,potência,OR lógico curto,A
+perguntas-java.json,268,3,alternativas_curtas_sem_descricao_de_uso | enunciado_malformado,Para que serve o operador |?,OR bit a bit,shift left,NOT,AND lógico,A
+perguntas-java.json,269,3,alternativas_curtas_sem_descricao_de_uso | enunciado_malformado,Para que serve o operador ^?,módulo,XOR bit a bit,potência matemática,AND lógico,B
+perguntas-java.json,281,3,alternativas_curtas_sem_descricao_de_uso,Para que serve o método o método Stream.collect(...) em ?,compila classe,gera bytecode,inicia thread,materializa o resultado do pipeline,D
+perguntas-java.json,307,3,alternativas_curtas_sem_descricao_de_uso,Para que serve Stream.collect?,iniciar thread,gerar bytecode,materializar o resultado,compilar classe,C
+perguntas-java.json,316,3,par_invertido_enunciado_usa_texto_da_resposta,O que é optional serve principalmente para?,representar valor ausente,criar threads,substituir List,acelerar GC,A
+perguntas-java.json,320,3,par_invertido_enunciado_usa_texto_da_resposta,O que é o record gera automaticamente?,equals/hashCode/toString,servidor HTTP,GC custom,SQL,A
+perguntas-java.json,324,3,par_invertido_enunciado_usa_texto_da_resposta,O que é equals deve ser consistente com?,finalize,hashCode,clone,toString apenas,B
+perguntas-java.json,327,3,par_invertido_enunciado_usa_texto_da_resposta,O que é o generics ajudam em?,remover JVM,segurança de tipos,evitar compilação,aumentar GC,B
+perguntas-java.json,331,3,alternativas_curtas_sem_descricao_de_uso,Para que serve O que stream.collect?,compilar classe,materializar o resultado,gerar bytecode,iniciar thread,B
+perguntas-java.json,420,3,"distractors_genericos_reciclados (record, enum)",Qual anotação @FunctionalInterface documenta?,interface com um único método abstrato,classe final,record,enum,A
+perguntas-python.json,5,1,enunciado_malformado | par_invertido_enunciado_usa_texto_da_resposta,O que é devolve valor de uma função?,cria,define,importa,return,D
+perguntas-python.json,6,1,"alternativas_curtas_sem_descricao_de_uso | alternativas_desconexas_sem_verbo_de_acao | distractors_genericos_reciclados (import, classe) | molde_tipo_em_pergunta_de_proposito (2/4 alternativas sao rotulos de tipo)",Para que serve a palavra-chave if?,estrutura condicional,import,classe,laço infinito,A
+perguntas-python.json,7,1,"distractors_genericos_reciclados (import, classe) | par_invertido_enunciado_usa_texto_da_resposta",O que é estrutura condicional?,import,if,classe,laço,B
+perguntas-python.json,9,1,par_invertido_enunciado_usa_texto_da_resposta,O que é condição intermediária em cadeia if?,import,decorator,fim,elif,D
+perguntas-python.json,11,1,par_invertido_enunciado_usa_texto_da_resposta,O que representa ramo alternativo do if?,import,else,yield,início,B
+perguntas-python.json,13,1,par_invertido_enunciado_usa_texto_da_resposta,O que é laço de iteração?,import,definição,for,exceção,C
+perguntas-python.json,14,1,alternativas_curtas_sem_descricao_de_uso,Para que serve a palavra-chave while?,lambda,class,laço enquanto condição for verdadeira,import,C
+perguntas-python.json,15,1,par_invertido_enunciado_usa_texto_da_resposta,O que é laço enquanto condição for verdadeira?,lambda,while,import,class,B
+perguntas-python.json,27,1,par_invertido_enunciado_usa_texto_da_resposta,O que é vai à próxima iteração?,encerra,yield,importa,continue,D
+perguntas-python.json,28,1,alternativas_curtas_sem_descricao_de_uso,Para que serve o tipo primitivo None?,False apenas,lista vazia,0,ausência de valor,D
+perguntas-python.json,31,1,"distractors_genericos_reciclados (True, ""True"")",O que representa valor booleano verdadeiro?,True,"""True""",1,None,A
+perguntas-python.json,33,1,"distractors_genericos_reciclados (""False"", False)",O que representa valor booleano falso?,"""False""",False,0,None,B
+perguntas-python.json,34,1,enunciado_malformado,Para que serve o operador and?,operador lógico E,OU,XOR exclusivo simbólico,NÃO,A
+perguntas-python.json,35,1,par_invertido_enunciado_usa_texto_da_resposta,O que é operador lógico E?,OU,and,XOR,NÃO,B
+perguntas-python.json,36,1,alternativas_curtas_sem_descricao_de_uso | enunciado_malformado,Para que serve o operador or?,módulo,E,NÃO,operador lógico OU,D
+perguntas-python.json,37,1,par_invertido_enunciado_usa_texto_da_resposta,O que é operador lógico OU?,E,or,módulo,NÃO,B
+perguntas-python.json,38,1,alternativas_curtas_sem_descricao_de_uso | enunciado_malformado,Para que serve o operador not?,concatenação,soma,import,negação lógica,D
+perguntas-python.json,40,1,enunciado_malformado,Para que serve o operador in?,verifica pertinência / itera,floor div,potência,atribuição,A
+perguntas-python.json,47,1,alternativas_curtas_sem_descricao_de_uso,Para que serve a função built-in sum?,multiplicar,ordenar,inverter,somar elementos,D
+perguntas-python.json,48,1,alternativas_curtas_sem_descricao_de_uso,Para que serve a função built-in max?,média,maior valor,mediana,menor valor,B
+perguntas-python.json,49,1,alternativas_curtas_sem_descricao_de_uso,Para que serve a função built-in min?,menor valor,maior valor,tamanho,soma,A
+perguntas-python.json,50,1,alternativas_curtas_sem_descricao_de_uso,Para que serve o método o método str.split em ?,strip,dividir string em partes,upper,juntar strings,B
+perguntas-python.json,51,1,alternativas_curtas_sem_descricao_de_uso,Para que serve o método o método str.join em ?,replace,juntar partes em string,find,split,B
+perguntas-python.json,52,1,alternativas_curtas_sem_descricao_de_uso,Para que serve o método o método str.strip em ?,upper,split,lower,remover espaços nas bordas,D
+perguntas-python.json,53,1,alternativas_curtas_sem_descricao_de_uso,Para que serve o método o método str.upper em ?,lower,strip,converter para maiúsculas,title,C
+perguntas-python.json,54,1,alternativas_curtas_sem_descricao_de_uso,Para que serve o método o método str.lower em ?,upper,converter para minúsculas,split,strip,B
+perguntas-python.json,82,1,"distractors_genericos_reciclados (void, null)",Qual valor representa ausência?,void,null,None,undefined,C
+perguntas-python.json,87,1,alternativas_curtas_sem_descricao_de_uso,Para que serve Pip?,instalar pacotes,compilar C++,formatar disco,criar JVM,A
+perguntas-python.json,100,1,alternativas_curtas_sem_descricao_de_uso,Para que serve Indentação?,ser opcional,apenas estética,definir blocos,compilar C,C
+perguntas-python.json,103,1,alternativas_curtas_sem_descricao_de_uso,Para que serve O que indentação?,compilar C,apenas estética,ser opcional,definir blocos,D
+perguntas-python.json,104,1,par_invertido_enunciado_usa_texto_da_resposta,O que é type([]) retorna?,dict,list,set,tuple,B
+perguntas-python.json,105,1,alternativas_curtas_sem_descricao_de_uso,Para que serve O que pip?,instalar pacotes,criar JVM,compilar C++,formatar disco,A
+perguntas-python.json,124,1,alternativas_curtas_sem_descricao_de_uso,Para que serve bool([]) na prática?,é False porque lista vazia é falsy,tuple,"f""...""",list,A
+perguntas-python.json,126,1,"distractors_genericos_reciclados (int, long)",Qual tipo representa números inteiros?,int,integer,long,number,A
+perguntas-python.json,127,1,"distractors_genericos_reciclados (char, string)",Qual tipo representa texto?,str,char,string,text,A
+perguntas-python.json,143,1,"distractors_genericos_reciclados (int(), float(), bool())",Qual função converte valor para inteiro?,int(),str(),float(),bool(),A
+perguntas-python.json,151,2,par_invertido_enunciado_usa_texto_da_resposta,O que é o inicia bloco protegido contra exceções?,define,importa,cria,try,D
+perguntas-python.json,153,2,par_invertido_enunciado_usa_texto_da_resposta,O que é o trata exceção?,define,lança,importa,except,D
+perguntas-python.json,155,2,par_invertido_enunciado_usa_texto_da_resposta,O que é bloco executado ao final do try/except?,substitui,finally,só,nunca,B
+perguntas-python.json,157,2,par_invertido_enunciado_usa_texto_da_resposta,O que é o lança uma exceção?,importa,raise,captura,cria,B
+perguntas-python.json,159,2,par_invertido_enunciado_usa_texto_da_resposta,O que é gerencia contexto (ex.: arquivos)?,ordena,compila,cria,with,D
+perguntas-python.json,160,2,alternativas_curtas_sem_descricao_de_uso,Para que serve a palavra-chave lambda?,classe anônima,exceção,função anônima,módulo,C
+perguntas-python.json,161,2,par_invertido_enunciado_usa_texto_da_resposta,O que é função anônima?,classe,exceção,lambda,módulo,C
+perguntas-python.json,164,2,enunciado_malformado,Para que serve o operador is?,compara identidade de objeto,import,soma,compara igualdade de valor (==),A
+perguntas-python.json,165,2,par_invertido_enunciado_usa_texto_da_resposta,O que é o compara identidade de objeto?,is,import,compara,soma,A
+perguntas-python.json,178,2,alternativas_curtas_sem_descricao_de_uso,Para que serve o método o método dict.keys em ?,itens,visão das chaves,somente valores,tamanho,B
+perguntas-python.json,179,2,alternativas_curtas_sem_descricao_de_uso,Para que serve o método o método dict.values em ?,itens,visão dos valores,hash,somente chaves,B
+perguntas-python.json,180,2,alternativas_curtas_sem_descricao_de_uso,Para que serve o método o método dict.items em ?,"pares (chave, valor)",só valores,só chaves,tamanho,A
+perguntas-python.json,200,2,"distractors_genericos_reciclados (False, True)",O que significa Bool([])?,False,0,True,None,A
+perguntas-python.json,201,2,"distractors_genericos_reciclados (True, False)",O que significa Bool([0])?,None,0,True,False,C
+perguntas-python.json,218,2,par_invertido_enunciado_usa_texto_da_resposta,O que é typeError ocorre tipicamente por?,sintaxe,arquivo ausente,tipos incompatíveis,indentação,C
+perguntas-python.json,251,3,par_invertido_enunciado_usa_texto_da_resposta,O que é o produz valor em generator?,yield,cria,importa,encerra,A
+perguntas-python.json,299,3,alternativas_curtas_sem_descricao_de_uso,Para que serve a sintaxe @?,#decorator,@decorator,$decorator,&decorator,B
+perguntas-python.json,300,3,par_invertido_enunciado_usa_texto_da_resposta,O que é o asyncio é para?,concorrência assíncrona,criar JVM,compilar máquina,substituir list,A

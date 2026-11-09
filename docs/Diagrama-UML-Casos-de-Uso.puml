@@ -1,0 +1,60 @@
+@startuml Diagrama_Casos_de_Uso_Rei_do_Codigo
+!theme plain
+skinparam shadowing false
+skinparam linetype ortho
+skinparam actorStyle awesome
+skinparam usecase {
+  BackgroundColor #F4F4F4
+  BorderColor #1A1A1A
+}
+skinparam rectangle {
+  BorderColor #1A1A1A
+}
+
+title Diagrama de casos de uso — Sistema Rei do Código
+
+left to right direction
+
+actor Jogador as jogador
+
+rectangle "Sistema Rei do Código" {
+  usecase "Cadastrar perfil" as UC01
+  usecase "Explorar corredor" as UC06
+  usecase "Iniciar batalha" as UC11
+  usecase "Consultar batalha" as UC12
+  usecase "Responder pergunta" as UC14
+  usecase "Resolver desafio" as UC19
+  usecase "Novo Jogo+" as UC04
+
+  usecase "Reiniciar após\nvencer o Rei" as UC01e
+  usecase "Validar ordem\nno corredor" as UC11i
+  usecase "Sortear pergunta\nsem repetição" as UC13i
+  usecase "Aplicar resultado\nde combate" as UCcomb
+  usecase "Executar casos\nde teste" as UC19i
+  usecase "Usar terminal\ninterativo" as UC16
+  usecase "Limpar batalhas e\nperguntas usadas" as UC04i
+}
+
+jogador --> UC01
+jogador --> UC06
+jogador --> UC11
+jogador --> UC12
+jogador --> UC14
+jogador --> UC19
+jogador --> UC04
+
+UC01e .> UC01 : <<extend>>
+UC11 .> UC11i : <<include>>
+UC14 .> UC13i : <<include>>
+UC14 .> UCcomb : <<include>>
+UC19 .> UCcomb : <<include>>
+UC19 .> UC19i : <<include>>
+UC16 .> UC19 : <<extend>>
+UC04 .> UC04i : <<include>>
+
+note bottom of UC19
+  Execução de código (local ou Judge0)
+  é interna ao sistema — não é ator.
+end note
+
+@enduml

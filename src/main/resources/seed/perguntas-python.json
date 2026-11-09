@@ -1,0 +1,542 @@
+[
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual conjunto contém apenas tipos embutidos comuns do Python?",
+    "alternativaA": "int, float, bool, str",
+    "alternativaB": "int, Integer, String, boolean",
+    "alternativaC": "int, vector, cout, char",
+    "alternativaD": "int, main, class, def",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual atribuição guarda um número inteiro, sem parte fracionária?",
+    "alternativaA": "x = 10.0",
+    "alternativaB": "x = 10",
+    "alternativaC": "x = \"10\"",
+    "alternativaD": "x = 10j",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual literal representa o valor lógico verdadeiro em Python?",
+    "alternativaA": "true, como em Java e JavaScript",
+    "alternativaB": "a string \"True\"",
+    "alternativaC": "True, com T maiúsculo",
+    "alternativaD": "On",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual declaração está correta para guardar um caractere como texto?",
+    "alternativaA": "char letra = 'A'",
+    "alternativaB": "letra = char('A')",
+    "alternativaC": "Character letra = \"A\"",
+    "alternativaD": "letra = \"A\"",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual regra vale para nomes de variáveis em Python?",
+    "alternativaA": "Devem começar com letra ou underscore, nunca com dígito",
+    "alternativaB": "Podem começar com dígito, desde que o restante seja letra",
+    "alternativaC": "Podem conter espaços se o nome estiver entre aspas",
+    "alternativaD": "Precisam ser escritos somente em letras maiúsculas",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "No Python, o bloco de um if é determinado principalmente por:",
+    "alternativaA": "chaves { }",
+    "alternativaB": "indentação",
+    "alternativaC": "begin e end",
+    "alternativaD": "ponto e vírgula obrigatório no fim de cada linha",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "No trecho if idade >= 18: ... else: ..., quando o bloco else é executado?",
+    "alternativaA": "Sempre, logo após o bloco if",
+    "alternativaB": "Somente se idade for exatamente 18",
+    "alternativaC": "Quando a condição do if for avaliada como falsa",
+    "alternativaD": "Apenas se idade for um número negativo",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Quantas vezes o corpo de for i in range(3): é executado?",
+    "alternativaA": "0",
+    "alternativaB": "2",
+    "alternativaC": "4",
+    "alternativaD": "3",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual palavra-chave inicia a definição de uma função?",
+    "alternativaA": "def",
+    "alternativaB": "function",
+    "alternativaC": "fun",
+    "alternativaD": "void",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual palavra-chave devolve um valor e encerra a função atual?",
+    "alternativaA": "yield, em qualquer função comum",
+    "alternativaB": "return",
+    "alternativaC": "break",
+    "alternativaD": "pass",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Em notas = [10, 20, 30, 40, 50], quais índices são válidos?",
+    "alternativaA": "1 até 5",
+    "alternativaB": "0 até 5",
+    "alternativaC": "0 até 4",
+    "alternativaD": "0 até 6",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Como se obtém a quantidade de elementos de uma lista chamada notas?",
+    "alternativaA": "notas.size()",
+    "alternativaB": "notas.length()",
+    "alternativaC": "notas.count()",
+    "alternativaD": "len(notas)",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual é o valor da expressão 17 % 5?",
+    "alternativaA": "2",
+    "alternativaB": "3.4",
+    "alternativaC": "5",
+    "alternativaD": "12",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Para duas variáveis a = 3 e b = 3, a expressão a == b compara:",
+    "alternativaA": "A identidade dos objetos na memória, exclusivamente",
+    "alternativaB": "Igualdade de valor",
+    "alternativaC": "Os nomes a e b",
+    "alternativaD": "Os tipos, ignorando os valores",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual instrução escreve uma linha de texto no console padrão?",
+    "alternativaA": "System.out.println(\"texto\")",
+    "alternativaB": "std::cout << \"texto\"",
+    "alternativaC": "print(\"texto\")",
+    "alternativaD": "Console.WriteLine(\"texto\")",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual símbolo inicia um comentário de linha?",
+    "alternativaA": "//",
+    "alternativaB": "/*",
+    "alternativaC": "--",
+    "alternativaD": "#",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual valor a expressão \"A\" + \"1\" + \"2\" produz?",
+    "alternativaA": "A12",
+    "alternativaB": "3A",
+    "alternativaC": "A3",
+    "alternativaD": "12A",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual chamada converte o texto \"10\" em inteiro?",
+    "alternativaA": "Integer.parseInt(\"10\")",
+    "alternativaB": "int(\"10\")",
+    "alternativaC": "static_cast<int>(\"10\")",
+    "alternativaD": "\"10\".toInt()",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Dentro de um for, a instrução continue provoca qual efeito?",
+    "alternativaA": "Encerra a função imediatamente",
+    "alternativaB": "Encerra o programa",
+    "alternativaC": "Interrompe o restante da iteração atual e segue para a próxima",
+    "alternativaD": "Apaga a lista percorrida",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Usar o nome x sem nunca tê-lo atribuído provoca, em geral:",
+    "alternativaA": "x valer 0 automaticamente",
+    "alternativaB": "x valer None automaticamente",
+    "alternativaC": "o interpretador ignorar a linha",
+    "alternativaD": "NameError",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual afirmativa descreve corretamente a relação entre classe e instância?",
+    "alternativaA": "A classe é o modelo; a instância é um objeto criado a partir desse modelo",
+    "alternativaB": "A classe é a instância; o objeto é só o nome do arquivo",
+    "alternativaC": "Classe e instância são sinônimos em tempo de execução",
+    "alternativaD": "Instâncias existem apenas em tempo de compilação",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "O método __init__ de uma classe serve principalmente para:",
+    "alternativaA": "destruir o objeto ao sair do escopo, como um destrutor C++",
+    "alternativaB": "inicializar a instância recém-criada",
+    "alternativaC": "registrar a classe no interpretador antes do import",
+    "alternativaD": "tornar a classe abstrata automaticamente",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "O primeiro parâmetro de um método de instância, por convenção chamado self, refere-se a:",
+    "alternativaA": "a classe, nunca à instância",
+    "alternativaB": "o módulo em que a classe foi definida",
+    "alternativaC": "a instância sobre a qual o método foi chamado",
+    "alternativaD": "sempre None",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual diferença entre list e tuple está correta?",
+    "alternativaA": "tuple é mutável; list é imutável",
+    "alternativaB": "ambas são imutáveis",
+    "alternativaC": "list não permite índice numérico",
+    "alternativaD": "list é mutável; tuple é imutável",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Em d = {}, as atribuições d[\"a\"] = 1 e depois d[\"a\"] = 2 provocam:",
+    "alternativaA": "substituição do valor associado à chave \"a\" por 2",
+    "alternativaB": "duas entradas distintas com a chave \"a\"",
+    "alternativaC": "KeyError na segunda atribuição",
+    "alternativaD": "ignorar a segunda atribuição e manter 1",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual é o tamanho de set([1, 1, 2, 2, 3])?",
+    "alternativaA": "5",
+    "alternativaB": "3",
+    "alternativaC": "2",
+    "alternativaD": "1",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Quando uma exceção do tipo capturado ocorre no try, o fluxo segue para:",
+    "alternativaA": "sys.exit, sempre",
+    "alternativaB": "o bloco finally, ignorando except",
+    "alternativaC": "o bloco except correspondente, se existir",
+    "alternativaD": "somente a função main, que o Python exige",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "O bloco finally associado a um try é executado:",
+    "alternativaA": "somente se nenhuma exceção ocorrer",
+    "alternativaB": "somente se a exceção for capturada",
+    "alternativaC": "apenas quando except estiver vazio",
+    "alternativaD": "ao sair do try/except, ocorra ou não exceção (salvo abortos do processo)",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "A forma idiomática de abrir um arquivo e garantir o fechamento é:",
+    "alternativaA": "with open(\"dados.txt\") as f:",
+    "alternativaB": "file.open(\"dados.txt\")",
+    "alternativaC": "fopen(\"dados.txt\")",
+    "alternativaD": "new FileReader(\"dados.txt\")",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Com a = [1, 2] e b = [1, 2], qual afirmativa está correta?",
+    "alternativaA": "a is b é True, porque os valores coincidem",
+    "alternativaB": "a == b é True e a is b é False, em geral",
+    "alternativaC": "a == b é False, porque são listas distintas",
+    "alternativaD": "is compara valor e == compara identidade",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "A expressão [x * 2 for x in [1, 2, 3] if x > 1] produz:",
+    "alternativaA": "[2, 4, 6]",
+    "alternativaB": "[1, 2, 3]",
+    "alternativaC": "[4, 6]",
+    "alternativaD": "(4, 6)",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "A declaração class Cachorro(Animal): indica que:",
+    "alternativaA": "Cachorro não pode usar métodos de Animal",
+    "alternativaB": "Animal se torna abstrata automaticamente",
+    "alternativaC": "Cachorro é uma instância de Animal, não uma classe",
+    "alternativaD": "Cachorro herda de Animal",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual instrução importa o módulo math da biblioteca padrão?",
+    "alternativaA": "import math",
+    "alternativaB": "#include <math>",
+    "alternativaC": "using math",
+    "alternativaD": "import java.lang.Math",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "O fatiamento \"abcd\"[1:3] produz:",
+    "alternativaA": "\"abc\"",
+    "alternativaB": "\"bc\"",
+    "alternativaC": "\"bcd\"",
+    "alternativaD": "\"ab\"",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Com nome = \"Ana\", qual expressão monta o texto Olá, Ana de forma idiomática?",
+    "alternativaA": "\"Olá, \" . nome",
+    "alternativaB": "String.format(\"Olá, %s\", nome) como único jeito em Python",
+    "alternativaC": "f\"Olá, {nome}\"",
+    "alternativaD": "\"Olá, \" << nome",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual instrução lança uma exceção ValueError com mensagem?",
+    "alternativaA": "throw new ValueError(\"x\")",
+    "alternativaB": "raise ValueError, \"x\" no estilo exclusivo do Python 3",
+    "alternativaC": "except ValueError(\"x\")",
+    "alternativaD": "raise ValueError(\"x\")",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "A função enumerate(lista) serve para:",
+    "alternativaA": "percorrer pares (índice, elemento) ao iterar",
+    "alternativaB": "ordenar a lista in-place",
+    "alternativaC": "remover duplicatas",
+    "alternativaD": "converter a lista em dicionário automaticamente",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "isinstance(x, list) verifica se:",
+    "alternativaA": "x é exatamente o tipo list, nunca uma subclasse",
+    "alternativaB": "x é instância de list (ou de subclasse de list)",
+    "alternativaC": "x pode ser convertido para list",
+    "alternativaD": "a variável x foi declarada com anotação list",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "A expressão lambda x: x + 1 representa:",
+    "alternativaA": "uma classe anônima obrigatoriamente",
+    "alternativaB": "um gerador infinito",
+    "alternativaC": "uma função anônima que devolve x incrementado",
+    "alternativaD": "um decorador de classe",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Um atributo prefixado com um único underscore, como _saldo, indica por convenção:",
+    "alternativaA": "que o nome é uma constante de módulo, como em Java",
+    "alternativaB": "name mangling igual ao de __saldo",
+    "alternativaC": "que o interpretador impede qualquer acesso externo",
+    "alternativaD": "uso interno, sem enforcement real de privacidade",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "No CPython, o GIL implica principalmente que:",
+    "alternativaA": "apenas uma thread executa bytecode Python por vez, em geral",
+    "alternativaB": "threads Python não podem existir no processo",
+    "alternativaC": "multiprocessing é impossível",
+    "alternativaD": "operações de I/O nunca bloqueiam",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "O decorador @f acima de def g(): equivale, em essência, a:",
+    "alternativaA": "g = f() sem passar g",
+    "alternativaB": "g = f(g) após definir g",
+    "alternativaC": "f = g(f)",
+    "alternativaD": "executar f e g em threads separadas",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Uma função que contém yield:",
+    "alternativaA": "é sempre executada até o fim na primeira chamada",
+    "alternativaB": "vira um método estático automaticamente",
+    "alternativaC": "retorna um gerador, produzindo valores sob demanda",
+    "alternativaD": "não pode ser iterada em um for",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "async def e await servem principalmente para:",
+    "alternativaA": "compilar o módulo para código nativo",
+    "alternativaB": "criar processos filhos automaticamente",
+    "alternativaC": "substituir o GIL por locks de sistema",
+    "alternativaD": "escrever corrotinas cooperativamente assíncronas",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "A MRO (Method Resolution Order) em herança múltipla no Python 3 usa:",
+    "alternativaA": "linearização C3",
+    "alternativaB": "busca em profundidade da esquerda sem C3",
+    "alternativaC": "somente a primeira base, ignorando as demais",
+    "alternativaD": "uma vtable copiada do C++, sem lista __mro__",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "O problema clássico de def f(x=[]): x.append(1); return x é:",
+    "alternativaA": "x.append ser ilegal em listas",
+    "alternativaB": "a lista padrão ser criada uma vez e compartilhada entre chamadas",
+    "alternativaC": "o valor padrão ser recopiado em toda chamada, sem efeito colateral",
+    "alternativaD": "None ser o único default permitido",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Declarar __slots__ em uma classe serve principalmente para:",
+    "alternativaA": "tornar todos os métodos estáticos",
+    "alternativaB": "habilitar herança múltipla que era proibida",
+    "alternativaC": "restringir atributos e, em geral, evitar o __dict__ por instância",
+    "alternativaD": "ativar o coletor de lixo em ciclo",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Uma metaclasse atua principalmente:",
+    "alternativaA": "como destrutor chamado no gc.collect",
+    "alternativaB": "como substituto do GIL em código C",
+    "alternativaC": "apenas como apelido de mixin",
+    "alternativaD": "na criação da classe, controlando como o tipo é construído",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "copy.deepcopy(obj), em relação a copy.copy(obj):",
+    "alternativaA": "duplica objetos aninhados, não só a camada externa",
+    "alternativaB": "é sempre mais rasa que copy.copy",
+    "alternativaC": "não copia listas internas, só a referência",
+    "alternativaD": "funciona apenas com tipos imutáveis",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "A diferença central entre __new__ e __init__ é:",
+    "alternativaA": "__init__ cria o objeto; __new__ só valida argumentos",
+    "alternativaB": "__new__ cria (e devolve) a instância; __init__ a inicializa",
+    "alternativaC": "ambos são chamados apenas em subclasses de type",
+    "alternativaD": "__new__ é o nome antigo de __del__",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "A expressão (x * 2 for x in nums), em contraste com [x * 2 for x in nums]:",
+    "alternativaA": "materializa a lista imediatamente, como a compreensão com colchetes",
+    "alternativaB": "é uma tupla, não um iterador",
+    "alternativaC": "é um gerador preguiçoso, sem construir a lista inteira de imediato",
+    "alternativaD": "é inválida na gramática do Python",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "@property em um método implementa, em essência:",
+    "alternativaA": "um classmethod disfarçado",
+    "alternativaB": "um gerador infinito",
+    "alternativaC": "uma metaclasse para o módulo",
+    "alternativaD": "o protocolo de descritor para acesso estilo atributo",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Em funcs = [lambda: i for i in range(3)], chamar funcs[0](), funcs[1]() e funcs[2]() devolve, em geral:",
+    "alternativaA": "2, 2 e 2, por ligação tardia da variável de loop",
+    "alternativaB": "0, 1 e 2, porque cada lambda copia i na criação",
+    "alternativaC": "NameError em todas as chamadas",
+    "alternativaD": "uma lista [0, 1, 2] em cada chamada",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Para trabalho CPU-bound no CPython, a abordagem típica de paralelismo é:",
+    "alternativaA": "usar só threading.Thread, que ignora o GIL nesse caso",
+    "alternativaB": "multiprocessing (ou equivalente), pois o GIL limita threads em bytecode",
+    "alternativaC": "asyncio, que executa CPU em paralelo nativo automaticamente",
+    "alternativaD": "aumentar o número de greenlets até o número de núcleos",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Após o primeiro import de um módulo, importações seguintes no mesmo processo costumam:",
+    "alternativaA": "releitura obrigatória do arquivo .py do disco",
+    "alternativaB": "reexecução completa do topo do módulo sempre",
+    "alternativaC": "reutilizar o objeto já presente em sys.modules",
+    "alternativaD": "criar um subprocesso para isolar o módulo",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Um context manager customizado implementa, no protocolo clássico:",
+    "alternativaA": "__new__ e __del__ apenas",
+    "alternativaB": "__await__ obrigatoriamente",
+    "alternativaC": "__slots__ e __mro__",
+    "alternativaD": "__enter__ e __exit__",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "@dataclass em uma classe serve principalmente para:",
+    "alternativaA": "gerar boilerplate como __init__ e __repr__ a partir de anotações de campo",
+    "alternativaB": "compilar a classe para extensão C automaticamente",
+    "alternativaC": "tornar a classe uma metaclasse de type",
+    "alternativaD": "desativar o GIL enquanto os métodos correm",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "O operador morsa := (walrus) permite:",
+    "alternativaA": "apenas anotações de tipo em parâmetros",
+    "alternativaB": "atribuir e usar o valor numa expressão, como em um if",
+    "alternativaC": "criar uma corrotina sem async",
+    "alternativaD": "desempacotar dicionários com **",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "raise RuntimeError(\"falhou\") from exc expressa:",
+    "alternativaA": "supressão de exc, equivalente a from None sempre",
+    "alternativaB": "que RuntimeError substitui o sistema de exceções",
+    "alternativaC": "encadeamento: a nova exceção tem exc como causa (__cause__)",
+    "alternativaD": "reinício do interpretador após o erro",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "weakref.ref(obj) cria uma referência que:",
+    "alternativaA": "incrementa o refcount de obj como uma variável comum",
+    "alternativaB": "impede o coletor de lixo de reciclar obj",
+    "alternativaC": "converte obj em um proxy síncrono de asyncio",
+    "alternativaD": "não impede a coleta de obj quando não há referências fortes",
+    "respostaCorreta": "D"
+  }
+]

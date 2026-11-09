@@ -1,0 +1,542 @@
+[
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual conjunto contém apenas tipos fundamentais típicos do C++, e não tipos da biblioteca padrão?",
+    "alternativaA": "int, double, bool, char",
+    "alternativaB": "int, string, vector, bool",
+    "alternativaC": "Integer, Boolean, String, Double",
+    "alternativaD": "int, cout, cin, endl",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual declaração armazena um número inteiro, sem parte fracionária?",
+    "alternativaA": "double valor = 10;",
+    "alternativaB": "int valor = 10;",
+    "alternativaC": "float valor = 10;",
+    "alternativaD": "std::string valor = \"10\";",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual valor pode ser atribuído a uma variável do tipo bool?",
+    "alternativaA": "\"true\"",
+    "alternativaB": "nullptr",
+    "alternativaC": "true",
+    "alternativaD": "None",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual declaração está correta para guardar um único caractere?",
+    "alternativaA": "std::string letra = 'A';",
+    "alternativaB": "char letra = \"A\";",
+    "alternativaC": "char letra[] = 'A';",
+    "alternativaD": "char letra = 'A';",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual regra vale para identificadores de variáveis em C++?",
+    "alternativaA": "Devem começar com letra ou underscore, nunca com dígito",
+    "alternativaB": "Podem começar com dígito, desde que o restante seja letra",
+    "alternativaC": "Podem conter espaços se o nome estiver entre aspas",
+    "alternativaD": "Precisam ser escritos somente em letras maiúsculas",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual efeito a palavra-chave const provoca em uma variável local já inicializada?",
+    "alternativaA": "Transforma a variável em global automaticamente",
+    "alternativaB": "Impede que um novo valor seja atribuído a essa variável",
+    "alternativaC": "Permite alterar o tipo da variável em tempo de execução",
+    "alternativaD": "Torna a variável visível em todas as unidades de tradução",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "No trecho if (idade >= 18) { ... } else { ... }, quando o bloco else é executado?",
+    "alternativaA": "Sempre, logo após o bloco if",
+    "alternativaB": "Somente se idade for exatamente 18",
+    "alternativaC": "Quando a condição do if for avaliada como falsa",
+    "alternativaD": "Apenas se idade for um número negativo",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Quantas vezes o corpo de for (int i = 0; i < 3; i++) é executado?",
+    "alternativaA": "0",
+    "alternativaB": "2",
+    "alternativaC": "4",
+    "alternativaD": "3",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual diferença principal distingue while de do-while?",
+    "alternativaA": "do-while executa o corpo pelo menos uma vez, mesmo se a condição for falsa",
+    "alternativaB": "while não pode usar expressão convertível para bool",
+    "alternativaC": "while executa o corpo pelo menos duas vezes",
+    "alternativaD": "do-while só funciona com variáveis int",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual palavra-chave impede que a execução de um switch continue nos cases seguintes?",
+    "alternativaA": "exit",
+    "alternativaB": "break",
+    "alternativaC": "stop",
+    "alternativaD": "return, de forma obrigatória em todo case",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Em int v[5];, quais índices são válidos para acessar elementos?",
+    "alternativaA": "1 até 5",
+    "alternativaB": "0 até 5",
+    "alternativaC": "0 até 4",
+    "alternativaD": "0 até 6",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Como se obtém a quantidade de elementos de um array estático int notas[10] no mesmo escopo em que ele foi declarado?",
+    "alternativaA": "notas.size()",
+    "alternativaB": "notas.length()",
+    "alternativaC": "len(notas)",
+    "alternativaD": "sizeof(notas) / sizeof(notas[0])",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual é o valor da expressão 17 % 5?",
+    "alternativaA": "2",
+    "alternativaB": "3.4",
+    "alternativaC": "5",
+    "alternativaD": "12",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Para duas variáveis int a e b, a expressão a == b compara:",
+    "alternativaA": "Os endereços de memória de objetos alocados com new",
+    "alternativaB": "Os valores numéricos armazenados nas variáveis",
+    "alternativaC": "Os nomes escolhidos para a e b",
+    "alternativaD": "Os tipos declarados, ignorando os valores",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual instrução escreve uma linha de texto no console padrão?",
+    "alternativaA": "System.out.println(\"texto\");",
+    "alternativaB": "print(\"texto\")",
+    "alternativaC": "std::cout << \"texto\" << std::endl;",
+    "alternativaD": "Console.WriteLine(\"texto\");",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual assinatura é um ponto de entrada válido de um programa C++?",
+    "alternativaA": "public static void main(String[] args)",
+    "alternativaB": "def main():",
+    "alternativaC": "void start()",
+    "alternativaD": "int main()",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual valor a expressão std::string(\"A\") + \"1\" + \"2\" produz?",
+    "alternativaA": "A12",
+    "alternativaB": "3A",
+    "alternativaC": "A3",
+    "alternativaD": "12A",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual conversão de double para int descarta a parte fracionária de forma explícita e idiomática no C++ moderno?",
+    "alternativaA": "int x = valor as int;",
+    "alternativaB": "int x = static_cast<int>(valor);",
+    "alternativaC": "int x = (std::string)valor;",
+    "alternativaD": "int x = valor.toInt();",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Dentro de um for, a instrução continue provoca qual efeito?",
+    "alternativaA": "Encerra a função imediatamente",
+    "alternativaB": "Encerra o programa",
+    "alternativaC": "Interrompe o restante da iteração atual e segue para a próxima",
+    "alternativaD": "Reinicia o processo",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 1,
+    "enunciado": "Qual afirmativa descreve o valor de um int local (automático) que não foi inicializado?",
+    "alternativaA": "Vale sempre 0",
+    "alternativaB": "Vale nullptr",
+    "alternativaC": "O programa nunca compila nessa situação",
+    "alternativaD": "O valor é indeterminado; ler essa variável é comportamento indefinido",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual diferença padrão entre class e struct?",
+    "alternativaA": "class tem membros private por padrão; struct tem membros public por padrão",
+    "alternativaB": "struct não pode ter métodos nem construtor",
+    "alternativaC": "class não pode ser instanciada na stack",
+    "alternativaD": "struct existe apenas em tempo de pré-processamento",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual prática aplica encapsulamento de forma típica em uma classe?",
+    "alternativaA": "Deixar todos os dados public para simplificar o acesso",
+    "alternativaB": "Manter dados private e expor leitura/escrita controlada por funções-membro",
+    "alternativaC": "Usar apenas funções globais, sem estado de instância",
+    "alternativaD": "Inicializar campos em arquivos vizinhos via #include do .cpp",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "A herança public em class Derivada : public Base indica que:",
+    "alternativaA": "Derivada não pode usar membros public de Base",
+    "alternativaB": "Base se torna abstrata automaticamente",
+    "alternativaC": "Membros public de Base continuam public na interface de Derivada",
+    "alternativaD": "A herança ocorre só no pré-processador, sem objeto em tempo de execução",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Com Base* p = new Derivada();, se falar() é virtual em Base e sobrescrito em Derivada, p->falar() executa:",
+    "alternativaA": "Sempre o método de Base, porque o tipo estático de p é Base*",
+    "alternativaB": "Os dois métodos, em sequência",
+    "alternativaC": "Nenhum método, pois a atribuição é inválida",
+    "alternativaD": "O método de Derivada, por despacho virtual",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "O especificador override em um método indica que:",
+    "alternativaA": "O método pretende sobrescrever um virtual da base; há erro de compilação se a assinatura não corresponder",
+    "alternativaB": "O método não pode ser virtual",
+    "alternativaC": "Uma sobrecarga nova é criada obrigatoriamente, mesmo com a mesma assinatura",
+    "alternativaD": "A classe se torna um template",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Após int* p = new int(5);, a forma correta de devolver essa memória é:",
+    "alternativaA": "free(p), que é o único jeito definido para new",
+    "alternativaB": "delete p;",
+    "alternativaC": "delete[] p;",
+    "alternativaD": "p.close();",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual literal é o ponteiro nulo tipado preferido no C++ moderno?",
+    "alternativaA": "NULL, sempre equivalente a nullptr em sobrecargas envolvendo ponteiro e inteiro",
+    "alternativaB": "0, sem ambiguidade com o tipo int",
+    "alternativaC": "nullptr",
+    "alternativaD": "None",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual característica distingue uma referência int& r = x de um ponteiro?",
+    "alternativaA": "A referência pode ser nula com nullptr",
+    "alternativaB": "A referência pode ser reseatada para outro objeto depois de inicializada",
+    "alternativaC": "O ponteiro nunca pode ser nulo",
+    "alternativaD": "A referência deve ser inicializada e não pode ser reseatada",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual diferença entre um array estático e std::vector está correta?",
+    "alternativaA": "O array tem tamanho fixo no escopo; vector pode crescer dinamicamente",
+    "alternativaB": "vector tem tamanho fixo; o array cresce sozinho",
+    "alternativaC": "O array não armazena int; vector armazena sem precisar de tamanho",
+    "alternativaD": "vector não permite acesso por índice numérico",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Em std::map<std::string, int>, m[\"a\"] = 1; seguido de m[\"a\"] = 2; provoca:",
+    "alternativaA": "Duas entradas distintas com a chave \"a\"",
+    "alternativaB": "Substituição do valor associado à chave \"a\" por 2",
+    "alternativaC": "Exceção imediata por chave duplicada",
+    "alternativaD": "Ignorar a segunda atribuição e manter o valor 1",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Quando um throw de tipo capturado ocorre dentro do try, o fluxo segue para:",
+    "alternativaA": "abort(), sempre, sem chance de tratamento",
+    "alternativaB": "um bloco finally, presente na gramática da linguagem",
+    "alternativaC": "o bloco catch correspondente, se existir",
+    "alternativaD": "somente a função main",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "O destrutor de uma classe é chamado:",
+    "alternativaA": "Apenas com delete, nunca para objetos automáticos",
+    "alternativaB": "No início do construtor, antes dos inicializadores",
+    "alternativaC": "Somente se a classe declarar algum método virtual",
+    "alternativaD": "Quando o objeto termina o tempo de vida (sair de escopo, delete, etc.)",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "O ponteiro this em um método de instância não const aponta para:",
+    "alternativaA": "O objeto sobre o qual o método foi chamado",
+    "alternativaB": "A classe como entidade estática, sem instância",
+    "alternativaC": "O próximo objeto no heap",
+    "alternativaD": "Sempre nullptr",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Com void f(int& n) { n = 2; } e int x = 1; f(x); o valor de x fica:",
+    "alternativaA": "1, porque a passagem é por cópia",
+    "alternativaB": "2, porque a referência altera o original",
+    "alternativaC": "indeterminado",
+    "alternativaD": "0",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Em for (int x : vec), vec precisa ser:",
+    "alternativaA": "Apenas um int",
+    "alternativaB": "Somente um ponteiro void*",
+    "alternativaC": "Um intervalo iterável, como std::vector",
+    "alternativaD": "Um arquivo aberto com fopen",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual construção evita a inclusão múltipla do mesmo header?",
+    "alternativaA": "using namespace",
+    "alternativaB": "inline namespace",
+    "alternativaC": "template<>",
+    "alternativaD": "#pragma once ou include guards (#ifndef / #define / #endif)",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Para comparar o conteúdo de dois std::string s1 e s2, a forma idiomática é:",
+    "alternativaA": "s1 == s2",
+    "alternativaB": "s1.equals(s2)",
+    "alternativaC": "s1 === s2",
+    "alternativaD": "strcmp, obrigatório mesmo com std::string",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Membros protected são visíveis:",
+    "alternativaA": "Em qualquer função do programa",
+    "alternativaB": "Na própria classe e em classes derivadas",
+    "alternativaC": "Apenas em arquivos .cpp, nunca em .h",
+    "alternativaD": "Somente se a classe for friend de si mesma",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Qual característica vale para um construtor?",
+    "alternativaA": "Deve declarar tipo de retorno void",
+    "alternativaB": "Precisa ser static",
+    "alternativaC": "Tem o mesmo nome da classe e não declara tipo de retorno",
+    "alternativaD": "Só pode existir um por classe",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 2,
+    "enunciado": "Por que std::vector costuma ser preferível a new int[n] na maioria dos casos?",
+    "alternativaA": "vector não pode mudar de tamanho",
+    "alternativaB": "new int[n] chama o destrutor dos elementos automaticamente ao sair do escopo",
+    "alternativaC": "vector proíbe acesso por índice",
+    "alternativaD": "vector gerencia a memória e libera os elementos ao destruir o objeto",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "std::move(x) tem como efeito principal:",
+    "alternativaA": "Converter x em rvalue (xvalue), habilitando construtor ou atribuição de movimento",
+    "alternativaB": "Mover fisicamente os bytes para outro núcleo da CPU",
+    "alternativaC": "Garantir que x permanece observavelmente inalterado",
+    "alternativaD": "Realizar cópia profunda de x",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Em relação a um ponteiro cru, std::unique_ptr:",
+    "alternativaA": "Permite duas unique_ptr donas do mesmo bloco sem usar shared_ptr",
+    "alternativaB": "Possui exclusividade de posse e destrói o recurso no destrutor",
+    "alternativaC": "Impede qualquer acesso ao objeto apontado",
+    "alternativaD": "Não pode ser retornado de funções",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Ciclos de std::shared_ptr podem impedir a liberação da memória. A quebra típica usa:",
+    "alternativaA": "unique_ptr nos dois sentidos do ciclo",
+    "alternativaB": "auto_ptr como substituto moderno",
+    "alternativaC": "std::weak_ptr em um dos lados do ciclo",
+    "alternativaD": "new sem delete, para o coletor de lixo da linguagem agir",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Por que uma classe base polimórfica deve ter destrutor virtual?",
+    "alternativaA": "Para impedir qualquer herança",
+    "alternativaB": "Porque o compilador exige virtual em todos os métodos",
+    "alternativaC": "Para acelerar a vtable em todas as chamadas",
+    "alternativaD": "Para que delete via ponteiro da base chame o destrutor da derivada",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "A Regra dos Cinco recomenda que, ao definir um dos membros especiais, se considere também:",
+    "alternativaA": "destrutor, construtor de cópia, atribuição de cópia, construtor de movimento e atribuição de movimento",
+    "alternativaB": "apenas operator+",
+    "alternativaC": "somente o construtor padrão",
+    "alternativaD": "apenas os operadores new e delete globais",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Acessar v[i] com i fora dos limites de um array C é:",
+    "alternativaA": "uma exceção IndexOutOfBounds garantida pelo padrão",
+    "alternativaB": "comportamento indefinido (undefined behavior)",
+    "alternativaC": "sempre equivalente a ler 0",
+    "alternativaD": "sempre um abort() da biblioteca padrão",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "O despacho de um método virtual em C++ costuma usar:",
+    "alternativaA": "somente macros do pré-processador",
+    "alternativaB": "reflexão nativa em tempo de execução, no estilo da JVM",
+    "alternativaC": "uma tabela de funções virtuais (vtable) associada ao objeto",
+    "alternativaD": "o coletor de lixo para escolher a implementação",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Em auto f = [&x]() { x++; }; a captura &x:",
+    "alternativaA": "Copia x no momento da criação da lambda",
+    "alternativaB": "Captura this obrigatoriamente",
+    "alternativaC": "É inválida desde C++11",
+    "alternativaD": "Captura x por referência; alterações afetam a variável original",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "std::lock_guard<std::mutex> lock(m); no início de um bloco:",
+    "alternativaA": "Adquire o mutex e libera automaticamente no destrutor (RAII)",
+    "alternativaB": "Adquire o mutex e nunca o libera",
+    "alternativaC": "Copia o mutex para a stack, sem sincronizar threads",
+    "alternativaD": "Elimina data races em qualquer variável do programa",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Qual situação descreve um deadlock clássico entre threads?",
+    "alternativaA": "Uma thread espera I/O e depois retoma a execução",
+    "alternativaB": "Duas ou mais threads esperam mutexes que as outras já possuem, sem progresso",
+    "alternativaC": "O sistema operacional troca o contexto por um instante",
+    "alternativaD": "Uma thread chama yield e cede a CPU temporariamente",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Duas threads escrevem o mesmo int não atômico sem sincronização. Isso é:",
+    "alternativaA": "sempre seguro se o int tiver 32 bits",
+    "alternativaB": "definido como last-writer-wins pelo padrão",
+    "alternativaC": "uma data race e, portanto, comportamento indefinido",
+    "alternativaD": "compilado como std::atomic automaticamente",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Uma função marcada constexpr:",
+    "alternativaA": "Só pode ser chamada em tempo de execução",
+    "alternativaB": "É sinônimo exato de inline",
+    "alternativaC": "Proíbe qualquer uso com argumentos não constantes",
+    "alternativaD": "Pode ser avaliada em tempo de compilação quando os argumentos permitem",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "template <typename T> T maximo(T a, T b) é:",
+    "alternativaA": "um template de função; o compilador instancia versões segundo os tipos usados",
+    "alternativaB": "uma função virtual",
+    "alternativaC": "uma macro do pré-processador",
+    "alternativaD": "código executado somente pelo linker",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "O construtor com assinatura T(T&& other) é o construtor:",
+    "alternativaA": "de cópia",
+    "alternativaB": "de movimento (move constructor)",
+    "alternativaC": "padrão",
+    "alternativaD": "de conversão a partir de ponteiro",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Na herança em diamante, a herança virtual serve para:",
+    "alternativaA": "tornar todos os métodos static",
+    "alternativaB": "impedir qualquer classe derivada",
+    "alternativaC": "haver um só subobjeto da classe base comum",
+    "alternativaD": "desligar a vtable",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Na norma C++20, um concept serve principalmente para:",
+    "alternativaA": "gerenciar threads",
+    "alternativaB": "substituir o linker",
+    "alternativaC": "alocar no heap",
+    "alternativaD": "restringir parâmetros de template com requisitos verificáveis",
+    "respostaCorreta": "D"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Após vector.push_back que provoca realocação, iteradores obtidos antes da operação:",
+    "alternativaA": "ficam invalidados",
+    "alternativaB": "passam a apontar automaticamente para o novo buffer, sempre",
+    "alternativaC": "são convertidos em shared_ptr",
+    "alternativaD": "são promovidos a const_iterator sem efeito colateral",
+    "respostaCorreta": "A"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "std::atomic<int> garante, entre outras coisas:",
+    "alternativaA": "ausência de deadlock em qualquer std::mutex",
+    "alternativaB": "operações atômicas e, com a ordem de memória adequada, sincronização entre threads",
+    "alternativaC": "que o int nunca sofra overflow",
+    "alternativaD": "exclusão mútua de todo o heap",
+    "respostaCorreta": "B"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "A garantia forte de exceção significa que, se a operação lançar:",
+    "alternativaA": "exceções deixam de existir no restante do programa",
+    "alternativaB": "o programa termina obrigatoriamente",
+    "alternativaC": "o estado observável permanece como antes da chamada",
+    "alternativaD": "todos os destrutores passam a lançar",
+    "respostaCorreta": "C"
+  },
+  {
+    "dificuldade": 3,
+    "enunciado": "Diretivas como #define e #include são processadas:",
+    "alternativaA": "depois do linker",
+    "alternativaB": "somente em tempo de execução",
+    "alternativaC": "pelo JIT, no estilo da JVM",
+    "alternativaD": "antes da compilação propriamente dita, como transformação de texto",
+    "respostaCorreta": "D"
+  }
+]

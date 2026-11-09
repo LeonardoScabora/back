@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rei do Código — Diagrama UML de Casos de Uso</title>
+  <style>
+    :root { --ink: #1a1a1a; --muted: #4a4a4a; --navy: #1e3a5f; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: #e8e8e8; color: var(--ink); font-family: "Segoe UI", Calibri, sans-serif; }
+    .toolbar {
+      position: sticky; top: 0; z-index: 10;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 12px 20px; background: var(--navy); color: #fff;
+    }
+    .toolbar p { margin: 0; font-size: 14px; }
+    .toolbar button { border: 0; background: #fff; color: var(--navy); font-weight: 600; padding: 8px 14px; cursor: pointer; }
+    .sheet { width: 1120px; max-width: 100%; margin: 24px auto; background: #fff; padding: 28px 36px 20px; }
+    h1 { margin: 0 0 4px; font-size: 22px; }
+    .subtitle { margin: 0 0 18px; color: var(--muted); font-size: 13px; }
+    h2 { margin: 0 0 8px; font-size: 16px; color: var(--navy); border-bottom: 1.5px solid var(--navy); padding-bottom: 6px; }
+    .note { margin: 0 0 12px; font-size: 12px; color: var(--muted); line-height: 1.45; }
+    svg { width: 100%; height: auto; display: block; }
+    .legend { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 10px; font-size: 11px; color: var(--muted); }
+    .legend i { display: inline-block; width: 28px; height: 0; border-top: 1.5px solid #1a1a1a; vertical-align: middle; margin-right: 6px; }
+    .dash { border-top-style: dashed !important; border-top-color: #1e3a5f !important; }
+    @media print {
+      html, body { background: #fff; }
+      .toolbar { display: none !important; }
+      .sheet { width: auto; margin: 0; padding: 8mm 10mm; }
+      @page { size: A4 landscape; margin: 8mm; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <p>UML 2 — diagrama de casos de uso do backend Rei do Código</p>
+    <button type="button" onclick="window.print()">Imprimir / Salvar PDF</button>
+  </div>
+
+  <section class="sheet">
+    <h1>Rei do Código</h1>
+    <p class="subtitle">Diagrama de casos de uso em notação UML 2 · ator único: Jogador · extraído dos controllers e serviços da API</p>
+    <h2>Diagrama de casos de uso</h2>
+    <p class="note">
+      Fronteira do sistema = retângulo. Caso de uso = elipse. Ator = boneco à esquerda.
+      Linha contínua = associação. Linha tracejada com <em>«include»</em> = passo obrigatório.
+      Linha tracejada com <em>«extend»</em> = comportamento opcional. A execução de código é interna ao sistema
+      (não é ator).
+    </p>
+
+    <svg viewBox="0 0 1100 640" role="img" aria-label="Diagrama UML de casos de uso">
+      <!-- Ator -->
+      <g fill="none" stroke="#1a1a1a" stroke-width="1.7">
+        <circle cx="78" cy="300" r="13" />
+        <line x1="78" y1="313" x2="78" y2="354" />
+        <line x1="58" y1="328" x2="98" y2="328" />
+        <line x1="78" y1="354" x2="60" y2="384" />
+        <line x1="78" y1="354" x2="96" y2="384" />
+      </g>
+      <text x="78" y="408" text-anchor="middle" font-size="14" font-weight="700" fill="#1a1a1a">Jogador</text>
+
+      <!-- Sistema -->
+      <rect x="150" y="24" width="920" height="592" fill="none" stroke="#1a1a1a" stroke-width="1.5" />
+      <text x="610" y="48" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a5f">Sistema Rei do Código</text>
+
+      <!-- Casos de uso principais -->
+      <g font-size="12" text-anchor="middle">
+        <ellipse cx="340" cy="92" rx="108" ry="30" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="340" y="96" fill="#1a1a1a">Cadastrar perfil</text>
+
+        <ellipse cx="340" cy="168" rx="108" ry="30" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="340" y="172" fill="#1a1a1a">Explorar corredor</text>
+
+        <ellipse cx="340" cy="244" rx="108" ry="30" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="340" y="248" fill="#1a1a1a">Iniciar batalha</text>
+
+        <ellipse cx="340" cy="320" rx="108" ry="30" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="340" y="324" fill="#1a1a1a">Consultar batalha</text>
+
+        <ellipse cx="340" cy="396" rx="108" ry="30" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="340" y="400" fill="#1a1a1a">Responder pergunta</text>
+
+        <ellipse cx="340" cy="472" rx="108" ry="30" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="340" y="476" fill="#1a1a1a">Resolver desafio</text>
+
+        <ellipse cx="340" cy="548" rx="108" ry="30" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="340" y="552" fill="#1a1a1a">Novo Jogo+</text>
+
+        <ellipse cx="700" cy="92" rx="118" ry="32" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="700" y="88" fill="#1a1a1a">Reiniciar após</text>
+        <text x="700" y="104" fill="#1a1a1a">vencer o Rei</text>
+
+        <ellipse cx="700" cy="244" rx="118" ry="32" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="700" y="240" fill="#1a1a1a">Validar ordem</text>
+        <text x="700" y="256" fill="#1a1a1a">no corredor</text>
+
+        <ellipse cx="700" cy="360" rx="118" ry="32" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="700" y="356" fill="#1a1a1a">Sortear pergunta</text>
+        <text x="700" y="372" fill="#1a1a1a">sem repetição</text>
+
+        <ellipse cx="700" cy="434" rx="118" ry="32" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="700" y="430" fill="#1a1a1a">Aplicar resultado</text>
+        <text x="700" y="446" fill="#1a1a1a">de combate</text>
+
+        <ellipse cx="960" cy="434" rx="96" ry="32" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="960" y="430" fill="#1a1a1a">Executar casos</text>
+        <text x="960" y="446" fill="#1a1a1a">de teste</text>
+
+        <ellipse cx="700" cy="500" rx="118" ry="30" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="700" y="496" fill="#1a1a1a">Usar terminal</text>
+        <text x="700" y="512" fill="#1a1a1a">interativo</text>
+
+        <ellipse cx="700" cy="572" rx="118" ry="30" fill="#f4f4f4" stroke="#1a1a1a" />
+        <text x="700" y="568" fill="#1a1a1a">Limpar batalhas e</text>
+        <text x="700" y="584" fill="#1a1a1a">perguntas usadas</text>
+      </g>
+
+      <!-- Associações do ator -->
+      <g stroke="#1a1a1a" stroke-width="1.2">
+        <line x1="98" y1="328" x2="232" y2="92" />
+        <line x1="98" y1="330" x2="232" y2="168" />
+        <line x1="98" y1="332" x2="232" y2="244" />
+        <line x1="98" y1="334" x2="232" y2="320" />
+        <line x1="98" y1="336" x2="232" y2="396" />
+        <line x1="98" y1="338" x2="232" y2="472" />
+        <line x1="98" y1="340" x2="232" y2="548" />
+      </g>
+
+      <!-- include / extend (seta no destino do relacionamento UML: include aponta para o incluído) -->
+      <defs>
+        <marker id="open" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+          <path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="#1e3a5f" stroke-width="1.4" />
+        </marker>
+      </defs>
+      <g fill="none" stroke="#1e3a5f" stroke-width="1.2" stroke-dasharray="5 4" marker-end="url(#open)">
+        <line x1="582" y1="92" x2="448" y2="92" />
+        <line x1="448" y1="244" x2="582" y2="244" />
+        <line x1="448" y1="396" x2="582" y2="360" />
+        <line x1="448" y1="396" x2="582" y2="424" />
+        <line x1="448" y1="472" x2="582" y2="434" />
+        <line x1="448" y1="472" x2="864" y2="434" />
+        <line x1="582" y1="500" x2="448" y2="472" />
+        <line x1="448" y1="548" x2="582" y2="572" />
+      </g>
+      <g font-size="10" fill="#1e3a5f" text-anchor="middle">
+        <text x="515" y="84">«extend»</text>
+        <text x="515" y="236">«include»</text>
+        <text x="500" y="360">«include»</text>
+        <text x="500" y="400">«include»</text>
+        <text x="500" y="450">«include»</text>
+        <text x="680" y="428">«include»</text>
+        <text x="530" y="492">«extend»</text>
+        <text x="515" y="556">«include»</text>
+      </g>
+    </svg>
+    <div class="legend">
+      <span><i></i> associação Jogador — caso de uso</span>
+      <span><i class="dash"></i> «include» obrigatório · «extend» opcional</span>
+    </div>
+  </section>
+</body>
+</html>
